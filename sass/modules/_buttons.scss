@@ -50,3 +50,15 @@
 		color: $black;
 	}
 }
+
+.btn--blue{
+	color: #FFF;
+	background-color: $blue;
+	border: 1px solid $blue;
+	border-radius: 10px;
+
+	&:hover,&:active{
+		background-color: #67d6ff;
+		border: 1px solid #67d6ff;
+	}
+}

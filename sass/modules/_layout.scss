@@ -1,0 +1,27 @@
+section{
+	position: relative;
+}
+
+.container{
+	margin: 0 auto;
+	width: 100%;
+	max-width: $container_width;
+	position: relative;
+	padding: 0 10px;
+}
+
+.img-responsive{
+	width: 100%;
+	height: auto;
+}
+
+.site-main{
+	margin: 0 auto;
+	width: 100%;
+	max-width: $container_width;
+	padding: 0 10px 70px 10px;
+	background-color: #fff;
+}
+
+
+

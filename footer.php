@@ -1,3 +1,49 @@
+</main>
+
+
+<footer class="site-footer">
+	<div class="container">
+		<div class="site-footer__block">
+			<p>© 2006-2015, 107076, Москва,  sabellino.ru<br>Все права защищены.</p>
+		</div>
+
+		<div class="site-footer__block site-footer__block--social">
+			<a href="#"><img src="/images/vk.png" alt="vk"></a>
+			<a href="#"><img src="/images/insta.png" alt="insta"></a>
+			<a href="#"><img src="/images/facebook.png" alt="facebook"></a>
+		</div>
+
+		<div class="site-footer__block site-footer__block--img">
+			<img src="/images/map.svg" alt="map">
+			<p>107076, г.&nbsp;Москва,<br>Проектируемый проезд  №&nbsp;4062,&nbsp;6</p>
+		</div>
+
+		<div class="site-footer__block site-footer__block--img">
+			<img src="/images/clock.svg" alt="clock">
+			<p>Пн-Пт:<br>10:00-18:00</p>
+		</div>
+
+		<div class="site-footer__block site-footer__block--img">
+			<img src="/images/phone.svg" alt="phone">
+			<p>
+				<a href="tel:8(800)922-06-90">8 (800) 922-06-90</a><br>
+				<a href="tel:+7(499)922-06-90">+7 (499) 922-06-90</a>
+			</p>
+		</div>
+	</div>
+</footer>
+
+
+<div class="site-bottom">
+	<div class="container">
+		<a href="#" data-ag="modal-call" class="site-bottom__policy">Политика конфиденциальности</a>
+		<div class="site-bottom__pay">
+			<span>Принимаем к оплате:</span>
+			<img src="/images/payments.png" alt="методы оплаты">
+		</div>
+	</div>
+</div>
+
 <!-- Модальные окна -->
 <div class="modals-sec">
 

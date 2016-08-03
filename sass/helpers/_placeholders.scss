@@ -10,3 +10,13 @@
 	font-size: 12px;
 	color: $grey;
 }
+
+%link-hover--pink{
+	transition: all 0.3s ease;
+	border-bottom: 1px solid transparent;
+
+	&:hover{
+		color: $pink;
+		border-bottom: 1px solid $pink;
+	}
+}

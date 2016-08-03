@@ -63,3 +63,20 @@ $(document).ready(function(){
 		padding: 0
 	});
 });
+
+
+// mobile-menu
+$(document).ready(function(){
+	$('.menu-btn').click(function(event) {
+		$(this).toggleClass('active');
+		$('.mobile-menu').toggleClass('opened');
+	});
+
+	$('.mobile-menu .has-sub__title').click(function(event) {
+		$('.mobile-menu .has-sub__title').not($(this)).removeClass('opened');
+		$(this).toggleClass('opened');
+		$('.mobile-menu').find('.sub-menu').not($(this).siblings('.sub-menu')).slideUp();
+		$(this).siblings('.sub-menu').slideToggle();
+	});
+});
+// mobile-menu
