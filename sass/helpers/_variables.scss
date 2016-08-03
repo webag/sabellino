@@ -1,0 +1,27 @@
+$breakpoints: (
+	'xl': (max-width: 1400px),
+	'l': (max-width: 1024px),
+	'm': (max-width: 768px),
+	's': (max-width: 580px),
+);
+
+$main-font: 'Open Sans', sans-serif;
+
+$black: #000000;
+$grey: #666666;
+$pink: #dd2d7a;
+$blue: #25a5de;
+$baklazan: #5c2c4e;
+$orange: #ed5f5f;
+
+$container_width: 1280px;
+
+$icomoon-font-path: "../fonts" !default;
+
+$i-search: "\e900";
+$i-play: "\e901";
+$i-prev: "\e902";
+$i-next: "\e903";
+$i-down: "\e905";
+$i-left: "\e906";
+$i-right: "\e909";

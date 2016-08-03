@@ -1,0 +1,12 @@
+%grid {
+	position: relative;
+	min-height: 1px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: -4px;
+}
+
+%grey-small{
+	font-size: 12px;
+	color: $grey;
+}
