@@ -17,6 +17,12 @@ h1{
 	font-weight: lighter;
 	line-height: 1.1;
 	text-transform: uppercase;
+	@include res(m){
+		font-size: 36px;
+	}
+	@include res(s){
+		font-size: 30px;
+	}
 }
 
 h2{

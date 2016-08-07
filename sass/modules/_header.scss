@@ -33,8 +33,11 @@
 		position: relative;
 		display: inline-block;
 		vertical-align: middle;
-		height: 45px;
 		white-space: nowrap;
+		margin-right: 5px;
+		@include res(xl){
+			margin-right: 0;
+		}
 
 		&>a{
 			display: block;
@@ -49,7 +52,7 @@
 
 		&:hover{
 			&>a{
-				background-color: #e6e6e6;
+				background-color: lighten($grey-light,13%);
 			}
 		}
 	}
@@ -61,11 +64,13 @@
 	opacity: 0;
 	pointer-events: none;
 	position: absolute;
-	background-color: #e6e6e6;
+	background-color: lighten($grey-light,13%);
 	top: 100%;
 	left: 0;
 	padding: 5px 0;
 	min-width: 100%;
+	transition: all 0.3s ease;
+	transform: translate(0,-10px);
 
 	li{
 		display: block;
@@ -115,7 +120,7 @@
 
 	&:hover{
 		.has-sub__title{
-			background-color: #e6e6e6;
+			background-color: lighten($grey-light,13%);
 
 			span{
 				border-bottom: 1px dotted transparent;
@@ -130,6 +135,7 @@
 			opacity: 1;
 			pointer-events: all;
 			z-index: 5;
+			transform: translate(0,0);
 		}
 	}
 }
@@ -158,7 +164,7 @@
 		}
 
 		&:hover{
-			background-color: #e6e6e6;
+			background-color: lighten($grey-light,13%);
 
 			span{
 				border-bottom: 1px dotted transparent;

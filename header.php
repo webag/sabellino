@@ -44,16 +44,16 @@
 	</form>
 
 	<ul class="menu-top">
-		<li><a href="#">Женщинам</a></li>
-		<li><a href="#">Мужчинам</a></li>
+		<li><a href="/catalog.php">Женщинам</a></li>
+		<li><a href="/catalog.php">Мужчинам</a></li>
 		<li class="has-sub">
 			<div class="has-sub__title">
 				<span>Розничным покупателям</span>
 				<i class="i-down"></i>
 			</div>
 			<ul class="sub-menu">
-				<li><a href="#">Розничным покупателям</a></li>
-				<li><a href="#">Оптовым покупателям</a></li>
+				<li><a href="/catalog.php">Сумки</a></li>
+				<li><a href="/catalog.php">Ремни</a></li>
 			</ul>
 		</li>
 		<li class="has-sub">
@@ -62,9 +62,8 @@
 				<i class="i-down"></i>
 			</div>
 			<ul class="sub-menu">
-				<li><a href="#">О компании</a></li>
-				<li><a href="#">Бренды</a></li>
-				<li><a href="#">Блог Sabellino</a></li>
+				<li><a href="/catalog.php">Сумки</a></li>
+				<li><a href="/catalog.php">Ремни</a></li>
 			</ul>
 		</li>
 		<li class="has-sub">
@@ -73,9 +72,9 @@
 				<i class="i-down"></i>
 			</div>
 			<ul class="sub-menu">
-				<li><a href="#">О компании</a></li>
-				<li><a href="#">Бренды</a></li>
-				<li><a href="#">Блог Sabellino</a></li>
+				<li><a href="/catalog-novinki.php">Женская одежда</a></li>
+				<li><a href="/catalog-novinki.php">Женские аксессуары</a></li>
+				<li><a href="/catalog-novinki.php">Мужские аксессуары</a></li>
 			</ul>
 		</li>
 		<li class="has-sub">
@@ -84,9 +83,8 @@
 				<i class="i-down"></i>
 			</div>
 			<ul class="sub-menu">
-				<li><a href="#">О компании</a></li>
-				<li><a href="#">Бренды</a></li>
-				<li><a href="#">Блог Sabellino</a></li>
+				<li><a href="/catalog.php">Сумки</a></li>
+				<li><a href="/catalog.php">Ремни</a></li>
 			</ul>
 		</li>
 	</ul>
@@ -168,7 +166,7 @@
 		<a href="/"><img src="/images/logo.png" alt="Logo" class="top-logo"></a>
 
 		<a href="#" class="cart-widget">
-			<span>корзина</span>
+			<span>Корзина</span>
 			<img src="/images/cart.png" alt="Корзина">
 			<figure>2</figure>
 		</a>
@@ -176,16 +174,16 @@
 
 	<div class="container site-header__bottom">
 		<ul class="menu-top">
-			<li><a href="#">Женщинам</a></li>
-			<li><a href="#">Мужчинам</a></li>
+			<li><a href="/catalog.php">Женщинам</a></li>
+			<li><a href="/catalog.php">Мужчинам</a></li>
 			<li class="has-sub">
 				<div class="has-sub__title">
 					<span>Розничным покупателям</span>
 					<i class="i-down"></i>
 				</div>
 				<ul class="sub-menu">
-					<li><a href="#">Розничным покупателям</a></li>
-					<li><a href="#">Оптовым покупателям</a></li>
+					<li><a href="/catalog.php">Сумки</a></li>
+					<li><a href="/catalog.php">Ремни</a></li>
 				</ul>
 			</li>
 			<li class="has-sub">
@@ -194,9 +192,8 @@
 					<i class="i-down"></i>
 				</div>
 				<ul class="sub-menu">
-					<li><a href="#">О компании</a></li>
-					<li><a href="#">Бренды</a></li>
-					<li><a href="#">Блог Sabellino</a></li>
+					<li><a href="/catalog.php">Сумки</a></li>
+					<li><a href="/catalog.php">Ремни</a></li>
 				</ul>
 			</li>
 			<li class="has-sub">
@@ -205,9 +202,9 @@
 					<i class="i-down"></i>
 				</div>
 				<ul class="sub-menu">
-					<li><a href="#">О компании</a></li>
-					<li><a href="#">Бренды</a></li>
-					<li><a href="#">Блог Sabellino</a></li>
+					<li><a href="/catalog-novinki.php">Женская одежда</a></li>
+					<li><a href="/catalog-novinki.php">Женские аксессуары</a></li>
+					<li><a href="/catalog-novinki.php">Мужские аксессуары</a></li>
 				</ul>
 			</li>
 			<li class="has-sub">
@@ -216,9 +213,8 @@
 					<i class="i-down"></i>
 				</div>
 				<ul class="sub-menu">
-					<li><a href="#">О компании</a></li>
-					<li><a href="#">Бренды</a></li>
-					<li><a href="#">Блог Sabellino</a></li>
+					<li><a href="/catalog.php">Сумки</a></li>
+					<li><a href="/catalog.php">Ремни</a></li>
 				</ul>
 			</li>
 		</ul>

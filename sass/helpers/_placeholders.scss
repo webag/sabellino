@@ -20,3 +20,23 @@
 		border-bottom: 1px solid $pink;
 	}
 }
+
+%link-hover--pink-dotted{
+	transition: all 0.3s ease;
+	border-bottom: 1px dotted transparent;
+
+	&:hover{
+		color: $pink;
+		border-bottom: 1px dotted $pink;
+	}
+}
+
+%link--baklazan-dotted{
+	transition: all 0.3s ease;
+	border-bottom: 1px dotted $baklazan;
+
+	&:hover{
+		color: $pink;
+		border-bottom: 1px dotted $pink;
+	}
+}

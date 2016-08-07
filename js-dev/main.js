@@ -80,3 +80,49 @@ $(document).ready(function(){
 	});
 });
 // mobile-menu
+
+
+// home-slider
+$(document).ready(function(){
+	$('.home-slider').flickity({
+		cellAlign: 'left',
+		contain: true,
+		adaptiveHeight: true,
+		imagesLoaded: true,
+		pageDots: false,
+		arrowShape: {
+			x0: 30,
+			x1: 50, y1: 40,
+			x2: 60, y2: 40,
+			x3: 40
+		}
+	});
+});
+// home-slider
+
+
+// открытие подменю категорий
+$(document).ready(function(){
+	$('.cats-menu__has-sub i').click(function() {
+		var current_razdel = $(this).parent('.cats-menu__has-sub');
+		current_razdel.toggleClass('opened');
+	});
+});
+// открытие подменю категорий
+
+
+// price_slider
+$(document).ready(function(){
+	$("#price_slider").ionRangeSlider({
+		type: "double",
+		min: 0,
+		max: 100000,
+		hide_min_max: true,
+		postfix: ' р.',
+		onChange: function (data) { // data - массив со всеми значениями слайдера цены.
+			$('[name="price_from"]').val(data.from);
+			$('[name="price_to"]').val(data.to);
+		}
+	});
+});
+// price_slider

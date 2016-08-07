@@ -1,0 +1,77 @@
+//page-nav
+.page-nav{
+	padding: 25px 0;
+}
+//page-nav
+
+//page-nav-itemcounter
+.page-nav-itemcounter{
+	color: $grey;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20px;
+	@include res(m){
+		display: block;
+		text-align: center;
+		margin-bottom: 15px;
+		margin-right: 0;
+	}
+	
+	&__num{
+		color: $black;
+	}
+}
+//page-nav-itemcounter
+
+//pager
+.pager{
+	display: inline-block;
+	vertical-align: middle;
+	@include res(m){
+		display: block;
+		text-align: center;
+	}
+
+	a{
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 0 3px 0;
+		width: 26px;
+		height: 26px;
+		font-weight: 600;
+		background-color: transparent;
+		color: $baklazan;
+		text-align: center;
+		line-height: 26px;
+		transition: all 0.3s ease;
+		border: 1px solid transparent;
+		border-radius: 3px;
+
+		&:hover{
+			border: 1px solid #e2e2e2;
+		}
+
+		&.active{
+			background-color: $baklazan;
+			color: #FFF;
+			border: 1px solid $baklazan;
+		}
+	}
+
+	&__prev,&__next{
+		font-family: $icon-font;
+		font-size: 7px;
+		color: $pink;
+	}
+
+	&__prev:before{
+		content: $i-left;
+		color: $pink;
+	}
+
+	&__next:before{
+		content: $i-right;
+		color: $pink;
+	}
+}
+//pager

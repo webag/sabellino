@@ -16,6 +16,7 @@
 	-moz-user-select: none;
 	user-select: none;
 	-webkit-appearance: none;
+	white-space: nowrap;
 
 	&:focus{
 		outline: none;
@@ -24,6 +25,11 @@
 
 .btn--big{
 	padding: 13px 30px;
+}
+
+.btn--small{
+	padding: 8px 10px;
+	font-size: 12px;
 }
 
 .btn--baklazan{
@@ -60,5 +66,12 @@
 	&:hover,&:active{
 		background-color: #67d6ff;
 		border: 1px solid #67d6ff;
+	}
+	
+	&:disabled{
+		color: $grey-light;
+		background-color: transparent;
+		border: 1px solid $grey-light;
+		pointer-events: none;
 	}
 }

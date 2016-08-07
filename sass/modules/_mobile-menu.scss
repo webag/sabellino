@@ -218,10 +218,12 @@
 			position: relative;
 			top: inherit;
 			display: none;
+			transform: translate(0,0);
+			transition: none;
 		}
 
 		.has-sub__title.opened{
-			background-color: #e6e6e6;
+			background-color: #d6d6d6;
 
 			span{
 				border-bottom: 1px dotted transparent;

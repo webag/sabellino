@@ -1,0 +1,238 @@
+.ti{
+	position: relative;
+	border-width: 1px 1px 0 1px;
+	border-style: solid;
+	border-color: transparent;
+	background-color: #fff;
+	margin-bottom: 40px;
+
+	&:hover{
+		border-color: $baklazan;
+		box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+		z-index: 3;
+
+		.ti__name{
+			a{
+				color: $pink;
+			}
+		}
+		
+		footer{
+			display: block;
+			border-width: 0 1px 1px 1px;
+			border-style: solid;
+			border-color: $baklazan;
+			box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+			z-index: 3;
+		}
+	}
+
+	@include res(l){
+		border: none;
+		box-shadow: none;
+
+		&:hover{
+			border: none;
+			box-shadow: none;
+
+			footer{
+				display: block;
+				border: none;
+				box-shadow: none;
+			}
+		}
+	}
+
+	header{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 250px;
+		padding: 0 10px;
+
+		img{
+			max-width: 100%;
+			max-height: 240px;
+			display: block;
+		}
+	}
+
+	main{
+		padding: 0 30px;
+		@include res(l){
+			padding: 0 15px;
+		}
+	}
+
+	footer{
+		position: absolute;
+		top: 100%;
+		left: -1px;
+		width: calc(100% + 2px);
+		padding: 0 30px 20px 30px;
+		display: none;
+		z-index: 2;
+		background-color: #fff;
+
+		@include res(l){
+			position: relative;
+			display: block;
+			padding: 0 15px 15px 15px;
+		}
+	}
+
+	&__old-price{
+		text-decoration: line-through;
+		margin-right: 10px;
+	}
+
+	&__new-price{
+		color: #d00505;
+	}
+
+	&__price{
+		color: $black;
+		font-weight: 600;
+	}
+
+	&__name{
+		color: $baklazan;
+		text-transform: none;
+		margin: 10px 0 5px 0;
+
+		a{
+			@extend %link-hover--pink;
+		}
+	}
+}
+
+//ti-colors
+.ti-colors{
+	@extend %grey-small;
+	@include res(l){
+		margin-top: 10px;
+	}
+}
+//ti-colors
+
+
+//ti-sizes
+.ti-sizes{
+	padding-top: 5px;
+
+	&__title{
+		@extend %grey-small;
+		@include res(l){
+			margin-top: 5px;
+			margin-bottom: 5px;
+		}
+	}
+
+	input{
+		display: none;
+
+		&:checked+label{
+			background-color: $pink;
+			color: #FFF;
+			border: 1px solid $pink;
+		}
+
+		&:disabled+label{
+			color: $grey-light;
+			&:hover{
+				border: 1px solid transparent;
+				cursor: default;
+			}
+		}
+	}
+
+	label{
+		display: inline-block;
+		vertical-align: top;
+		white-space: nowrap;
+		margin-bottom: 2px;
+		border-radius: 5px;
+		padding: 4px 9px;
+		line-height: 1;
+		font-size: 12px;
+		text-transform: uppercase;
+		color: $baklazan;
+		transition: all 0.2s ease;
+		border: 1px solid transparent;
+		@include res(l){
+			padding: 6px 12px;
+		}
+
+		&:hover{
+			border: 1px solid $grey-light;
+		}
+	}
+}
+//ti-sizes
+
+//ti-buy
+.ti-buy{
+	text-align: center;
+	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	@include res(l){
+		align-items: flex-start;
+	}
+
+	.btn{
+		@include res(l){
+			padding: 8px 25px;
+		}
+	}
+
+	&__oneclick{
+		margin-top: 18px;
+		@extend %link--baklazan-dotted;
+		color: $baklazan;
+	}
+
+	&__alertme{
+		margin-top: 18px;
+		@extend %link--baklazan-dotted;
+		color: $baklazan;
+	}
+}
+//ti-buy
+
+//ti-label
+.ti-labels{
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	z-index: 2;
+}
+
+.ti-label{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	display: inline-flex;
+	margin-right: 3px;
+	align-items: center;
+	justify-content: center;
+	font-weight: 600;
+	transition: all 0.3s ease;
+
+	&:hover{
+		box-shadow: 0 0 0 3px $pink;
+	}
+	
+	&--baklazan{
+		background-color: $baklazan;
+		color: #FFF;
+	}
+
+	&--orange{
+		background-color: $orange;
+		color: #FFF;
+	}
+}
+//ti-label

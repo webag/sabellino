@@ -12,8 +12,14 @@
 @import 'modules/header';
 @import 'modules/footer';
 @import 'modules/mobile-menu';
+@import 'modules/tovar-item';
+@import 'modules/page-nav';
 
 @import 'vendors/agmodal';
 @import 'vendors/fancybox';
+@import 'vendors/flickity';
+@import 'vendors/ion';
+@import 'vendors/ionskin';
 
 @import 'pages/home';
+@import 'pages/catalog';
