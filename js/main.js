@@ -126,3 +126,45 @@ $(document).ready(function(){
 	});
 });
 // price_slider
+
+
+// tovar-slider
+$(document).ready(function(){
+	$('.tovar-big-slider').flickity({
+		contain: true,
+		adaptiveHeight: true,
+		imagesLoaded: true,
+		pageDots: false,
+		arrowShape: {
+			x0: 30,
+			x1: 50, y1: 40,
+			x2: 60, y2: 40,
+			x3: 40
+		}
+	});
+
+	$('.tovar-small-slider').flickity({
+		cellAlign: 'left',
+		contain: true,
+		adaptiveHeight: false,
+		imagesLoaded: true,
+		pageDots: false,
+		prevNextButtons: false,
+		asNavFor: '.tovar-big-slider'
+	});
+});
+// tovar-slider
+
+
+// quantity
+$(document).ready(function(){
+	$('.quantity__minus').on('click',function () {
+		var current_input = $(this).siblings('input');
+		current_input.val(parseInt(current_input.val()) - 1);
+	});
+	$('.quantity__plus').on('click',function () {
+		var current_input = $(this).siblings('input');
+		current_input.val(parseInt(current_input.val()) + 1);
+	});
+});
+// quantity

@@ -165,7 +165,7 @@
 	<div class="container site-header__top">
 		<a href="/"><img src="/images/logo.png" alt="Logo" class="top-logo"></a>
 
-		<a href="#" class="cart-widget">
+		<a href="/cart.php" class="cart-widget">
 			<span>Корзина</span>
 			<img src="/images/cart.png" alt="Корзина">
 			<figure>2</figure>

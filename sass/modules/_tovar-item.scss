@@ -5,6 +5,7 @@
 	border-color: transparent;
 	background-color: #fff;
 	margin-bottom: 40px;
+	transition: all 0.1s ease;
 
 	&:hover{
 		border-color: $baklazan;
@@ -18,12 +19,13 @@
 		}
 		
 		footer{
-			display: block;
 			border-width: 0 1px 1px 1px;
 			border-style: solid;
 			border-color: $baklazan;
 			box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
 			z-index: 3;
+			opacity: 1;
+			transform: translate3d(0,0,0);
 		}
 	}
 
@@ -70,14 +72,18 @@
 		left: -1px;
 		width: calc(100% + 2px);
 		padding: 0 30px 20px 30px;
-		display: none;
-		z-index: 2;
+		z-index: -1;
 		background-color: #fff;
+		transition: all 0.1s ease;
+		transform: translate3d(0,-10px,0);
+		opacity: 0;
 
 		@include res(l){
 			position: relative;
-			display: block;
 			padding: 0 15px 15px 15px;
+			transform: translate3d(0,0,0);
+			opacity: 1;
+			z-index: 3;
 		}
 	}
 
@@ -87,7 +93,7 @@
 	}
 
 	&__new-price{
-		color: #d00505;
+		color: $red;
 	}
 
 	&__price{
@@ -122,10 +128,6 @@
 
 	&__title{
 		@extend %grey-small;
-		@include res(l){
-			margin-top: 5px;
-			margin-bottom: 5px;
-		}
 	}
 
 	input{
@@ -165,6 +167,14 @@
 
 		&:hover{
 			border: 1px solid $grey-light;
+		}
+	}
+
+	&--details{
+		label{
+			font-size: 14px;
+			font-weight: bold;
+			padding: 4px 7px;
 		}
 	}
 }
@@ -215,6 +225,7 @@
 	width: 40px;
 	height: 40px;
 	display: inline-flex;
+	vertical-align: middle;
 	margin-right: 3px;
 	align-items: center;
 	justify-content: center;

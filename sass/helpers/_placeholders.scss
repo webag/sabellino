@@ -32,11 +32,32 @@
 }
 
 %link--baklazan-dotted{
+	color: $baklazan;
 	transition: all 0.3s ease;
 	border-bottom: 1px dotted $baklazan;
 
 	&:hover{
 		color: $pink;
 		border-bottom: 1px dotted $pink;
+	}
+}
+
+%link--baklazan-line{
+	color: $baklazan;
+	transition: all 0.3s ease;
+	border-bottom: 1px solid $baklazan;
+
+	&:hover{
+		color: $pink;
+		border-bottom: 1px solid $pink;
+	}
+}
+
+%link--baklazan-pink{
+	color: $baklazan;
+	transition: all 0.3s ease;
+
+	&:hover{
+		color: $pink;
 	}
 }

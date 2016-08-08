@@ -58,4 +58,8 @@ h5{
 	h2,h3,h4,h5,p,ul,ol{
 		margin-bottom: 0.7em;
 	}
+
+	a{
+		@extend %link--baklazan-line;
+	}
 }

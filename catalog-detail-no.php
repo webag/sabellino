@@ -20,7 +20,7 @@
 				<img src="/images/thumbs/t-slide3.jpg" alt="3">
 			</div>
 			<div class="tovar-big-slide">
-				<img src="/images/thumbs/t-slide3.jpg" alt="3">
+				<img src="/images/thumbs/t-slide4.jpg" alt="4">
 			</div>
 		</div>
 
@@ -35,7 +35,7 @@
 				<img src="/images/thumbs/t-slide3.jpg" alt="70x70">
 			</div>
 			<div class="tovar-small-slide">
-				<img src="/images/thumbs/t-slide3.jpg" alt="70x70">
+				<img src="/images/thumbs/t-slide4.jpg" alt="70x70">
 			</div>
 		</div>
 	</div>
@@ -43,25 +43,22 @@
 
 	<!--info-->
 	<div class="tovar-info grid-5 grid-12_m">
-		<h1 class="tovar-info__name">Sabellino Summer Skull</h1>
-		<span class="tovar-info__type">Футболка женская</span>
+		<h1 class="tovar-info__name">Sabellino Сумка Обыкновенная</h1>
+		<span class="tovar-info__type">Сумка экокожа</span>
 		<div class="tovar-info__prices">
-			<span class="tovar-info__old-price">6 000 руб.</span>
-			<span class="tovar-info__new-price">3 000 руб.</span>
-			<!--<span class="tovar-info__price">3 000 руб.</span>-->
-			<span href="#" class="ti-label ti-label--baklazan">-10%</span>
+			<span class="tovar-info__price">6 850 руб.</span>
 		</div>
 		<div class="ti-sizes ti-sizes--details">
 			<span class="tovar-info__sm-title">Размеры:</span>
-			<input type="checkbox" id="r1">
+			<input type="checkbox" id="r1" disabled>
 			<label for="r1">xs</label>
-			<input type="checkbox" id="r2">
+			<input type="checkbox" id="r2" disabled>
 			<label for="r2">s</label>
 			<input type="checkbox" id="r3" disabled>
 			<label for="r3" title="Нет в наличии">m</label>
-			<input type="checkbox" id="r4">
+			<input type="checkbox" id="r4" disabled>
 			<label for="r4">l</label>
-			<input type="checkbox" id="r5">
+			<input type="checkbox" id="r5" disabled>
 			<label for="r5">xl</label>
 			<input type="checkbox" id="r6" disabled>
 			<label for="r6" title="Нет в наличии">xxl</label>
@@ -75,7 +72,10 @@
 			</div>
 		</div>
 		<div class="tovar-info__buywrap">
-			<button class="btn btn--blue btn--big">Добавить в корзину</button>
+			<button class="btn btn--blue btn--big" disabled>Добавить в корзину</button>
+			<div class="tovar-info__msgme">
+				<a href="#">Сообщить о поступлении</a>
+			</div>
 		</div>
 		<div class="tovar-info__pricenote user-content">
 			<p>Указана розничная цена. Для получения доступа к оптовым ценам. пройдите <a href="#">регистрацию</a> и авторизуйтесь как юрлицо.</p>

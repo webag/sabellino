@@ -113,12 +113,12 @@
 	<div class="grid-3 grid-6_m grid-12_s">
 		<div class="ti">
 			<header>
-				<a href="#"><img src="/images/thumbs/intro1.jpg" alt="bag"></a>
+				<a href="/catalog-detail.php"><img src="/images/thumbs/intro1.jpg" alt="bag"></a>
 			</header>
 			<main>
 				<span class="ti__old-price">6 000 руб.</span>
 				<span class="ti__new-price">3 000 руб.</span>
-				<h5 class="ti__name"><a href="#">Сумка женская экокожа</a></h5>
+				<h5 class="ti__name"><a href="/catalog-detail.php">Сумка женская экокожа</a></h5>
 				<div class="ti-colors">
 					<span class="ti-colors__title">Цвет:</span>
 					<span>небесно голубой</span>
@@ -154,11 +154,11 @@
 				<div class="ti-labels">
 					<a href="#" class="ti-label ti-label--orange">NEW</a>
 				</div>
-				<a href="#"><img src="/images/thumbs/intro2.jpg" alt="bag"></a>
+				<a href="/catalog-detail.php"><img src="/images/thumbs/intro2.jpg" alt="bag"></a>
 			</header>
 			<main>
 				<span class="ti__price">3 000 руб.</span>
-				<h5 class="ti__name"><a href="#">Сумка женская экокожа</a></h5>
+				<h5 class="ti__name"><a href="/catalog-detail.php">Сумка женская экокожа</a></h5>
 				<div class="ti-colors">
 					<span class="ti-colors__title">Цвет:</span>
 					<span>небесно голубой</span>
@@ -191,12 +191,12 @@
 					<a href="#" class="ti-label ti-label--baklazan">-50%</a>
 					<a href="#" class="ti-label ti-label--orange">NEW</a>
 				</div>
-				<a href="#"><img src="/images/thumbs/intro3.jpg" alt="bag"></a>
+				<a href="/catalog-detail.php"><img src="/images/thumbs/intro3.jpg" alt="bag"></a>
 			</header>
 			<main>
 				<span class="ti__old-price">6 000 руб.</span>
 				<span class="ti__new-price">3 000 руб.</span>
-				<h5 class="ti__name"><a href="#">Сумка женская экокожа</a></h5>
+				<h5 class="ti__name"><a href="/catalog-detail.php">Сумка женская экокожа</a></h5>
 				<div class="ti-colors">
 					<span class="ti-colors__title">Цвет:</span>
 					<span>небесно голубой</span>
@@ -214,11 +214,11 @@
 	<div class="grid-3 grid-6_m grid-12_s">
 		<div class="ti">
 			<header>
-				<a href="#"><img src="/images/thumbs/intro1.jpg" alt="bag"></a>
+				<a href="/catalog-detail.php"><img src="/images/thumbs/intro1.jpg" alt="bag"></a>
 			</header>
 			<main>
 				<span class="ti__price">3 000 руб.</span>
-				<h5 class="ti__name"><a href="#">Сумка женская экокожа</a></h5>
+				<h5 class="ti__name"><a href="/catalog-detail.php">Сумка женская экокожа</a></h5>
 				<div class="ti-colors">
 					<span class="ti-colors__title">Цвет:</span>
 					<span>сиреневый, зеленый, розовыйбежевый, золотая вставка</span>

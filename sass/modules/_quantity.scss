@@ -1,0 +1,55 @@
+.quantity{
+	height: 35px;
+	border: 1px solid $grey-light;
+	border-radius: 3px;
+	display: inline-flex;
+	overflow: hidden;
+
+	input{
+		border: 0;
+		width: 50px;
+		text-align: center;
+		border-radius: 0;
+		margin: 0 1px;
+
+		&:hover,&:focus{
+			border: 0;
+		}
+	}
+
+	figure{
+		width: 20px;
+		text-align: center;
+		background-color: #fff;
+		transition: all 0.1s ease;
+		cursor: pointer;
+		
+		&:hover{
+			background-color: $pink;
+			
+			&:before{
+				color: #FFF;
+			}
+		}
+
+		&:before{
+			font-family: $icon-font;
+			font-size: 7px;
+			line-height: 35px;
+			position: relative;
+			top: -1px;
+			transition: all 0.1s ease;
+		}
+	}
+
+	&__minus{
+		&:before{
+			content: $i-left;
+		}
+	}
+	&__plus{
+		&:before{
+			content: $i-right;
+		}
+	}
+}

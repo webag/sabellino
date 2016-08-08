@@ -75,3 +75,14 @@
 		pointer-events: none;
 	}
 }
+
+
+.btn--simple{
+	color: $baklazan;
+	background-color: transparent;
+	border: 1px solid transparent;
+
+	&:hover,&:active{
+		color: $pink;
+	}
+}
