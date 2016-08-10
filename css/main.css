@@ -7,7 +7,7 @@
   margin-right: -4px;
 }
 
-.breadcrumbs a, .breadcrumbs span, .site-bottom__policy, .site-bottom__pay span, .ti-colors, .ti-sizes__title, .back-link, .home-trigger__text, .tovar-info__sm-title, .tovar-info__pricenote, .cart-header {
+.breadcrumbs a, .breadcrumbs span, .site-bottom__policy, .site-bottom__pay span, .ti-colors, .ti-sizes__title, .back-link, .home-trigger__text, .tovar-info__sm-title, .tovar-info__pricenote, .cart-header, .checkout-form__note {
   font-size: 12px;
   color: #666666;
 }
@@ -161,6 +161,18 @@ h2, .home-banner__imgtitle p small {
   font-weight: normal;
   line-height: 1.2;
   text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  h2, .home-banner__imgtitle p small {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 580px) {
+  h2, .home-banner__imgtitle p small {
+    font-size: 20px;
+  }
 }
 
 h3, .home-slide__subtitle, .tovar-info__name {
@@ -456,10 +468,6 @@ section {
   background-color: #fff;
 }
 
-label {
-  cursor: pointer;
-}
-
 input[type="text"], input[type="tel"], input[type="email"], textarea {
   background-color: #fff;
   font-family: "Open Sans", sans-serif;
@@ -469,6 +477,7 @@ input[type="text"], input[type="tel"], input[type="email"], textarea {
   box-shadow: none;
   padding: 7px 15px;
   border-radius: 3px;
+  width: 100%;
   transition: all 0.3s ease;
 }
 
@@ -519,6 +528,15 @@ input[type="text"]:focus:-moz-placeholder, input[type="tel"]:focus:-moz-placehol
 
 input[type="text"]:focus:-ms-input-placeholder, input[type="tel"]:focus:-ms-input-placeholder, input[type="email"]:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   opacity: 0;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 10px;
 }
 
 .btn {
@@ -1875,6 +1893,7 @@ input[type="text"]:focus:-ms-input-placeholder, input[type="tel"]:focus:-ms-inpu
 }
 
 .page-title__sub {
+  display: block;
   margin-top: 15px;
 }
 
@@ -4573,6 +4592,142 @@ http://flickity.metafizzy.co
 
 .cart-total__val small {
   color: #919191;
+}
+
+.method-sec {
+  padding: 20px 0;
+}
+
+.method-sec__title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.method-sec [type="radio"] {
+  display: none;
+}
+
+.method-sec [type="radio"]:checked + label {
+  opacity: 1;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.method {
+  margin-bottom: 50px;
+  max-width: 745px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  opacity: 0.5;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+@media (max-width: 580px) {
+  .method {
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 12px;
+  }
+}
+
+.method:hover {
+  opacity: 1;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.method figure {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #5c2c4e;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 40px;
+}
+
+@media (max-width: 580px) {
+  .method figure {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.method figure img {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 580px) {
+  .method figure img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.method__name {
+  margin-bottom: 5px !important;
+  color: #5c2c4e;
+}
+
+.checkout-form {
+  margin-bottom: 70px;
+  max-width: 745px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.checkout-form__title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.checkout-form__right {
+  padding-left: 60px;
+}
+
+@media (max-width: 768px) {
+  .checkout-form__right {
+    padding-left: 0;
+  }
+}
+
+.checkout-form textarea {
+  height: 300px;
+}
+
+@media (max-width: 768px) {
+  .checkout-form textarea {
+    height: 150px;
+  }
+}
+
+.checkout-form__note {
+  text-align: right;
+}
+
+.cart-checkout-header {
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */

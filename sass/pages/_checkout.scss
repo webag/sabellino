@@ -1,0 +1,109 @@
+.method-sec{
+	padding: 20px 0;
+
+	&__title{
+		text-align: center;
+		margin-bottom: 50px;
+	}
+
+	[type="radio"]{
+		display: none;
+
+		&:checked+label{
+			opacity: 1;
+			filter: grayscale(0%);
+		}
+	}
+}
+
+.method{
+	margin-bottom: 50px;
+	max-width: 745px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	opacity: 0.5;
+	filter: grayscale(100%);
+	@include res(s){
+		flex-direction: column;
+		font-size: 12px;
+	}
+
+	&:hover{
+		opacity: 1;
+		filter: grayscale(0%);
+	}
+
+	figure{
+		display: flex;
+		flex-shrink: 0;
+		width: 62px;
+		height: 62px;
+		border-radius: 50%;
+		overflow: hidden;
+		border: 2px solid $baklazan;
+		align-items: center;
+		justify-content: center;
+		margin-right: 40px;
+		@include res(s){
+			margin-right: 0;
+			margin-bottom: 10px;
+			width: 50px;
+			height: 50px;
+		}
+
+		img{
+			width: 40px;
+			height: 40px;
+			@include res(s){
+				width: 30px;
+				height: 30px;
+			}
+		}
+	}
+	
+	&__name{
+		margin-bottom: 5px !important;
+		color: $baklazan;
+	}
+}
+
+
+//checkout-form
+.checkout-form{
+	margin-bottom: 70px;
+	max-width: 745px;
+	margin-left: auto;
+	margin-right: auto;
+
+	&__title{
+		text-align: center;
+		margin-bottom: 50px;
+	}
+
+	&__right{
+		padding-left: 60px;
+		@include res(m){
+			padding-left: 0;
+		}
+	}
+
+	textarea{
+		height: 300px;
+		@include res(m){
+			height: 150px;
+		}
+	}
+
+	&__note{
+		text-align: right;
+		@extend %grey-small;
+	}
+}
+//checkout-form
+
+.cart-checkout-header{
+	text-align: center;
+}

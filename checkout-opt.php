@@ -1,19 +1,94 @@
 <?php include('header.php'); ?>
 
 <section class="page-title">
-	<h1 class="page-title__name">Корзина</h1>
+	<h1 class="page-title__name">Оформление заказа</h1>
+	<span class="page-title__sub">Оптовый покупатель</span>
 </section>
 
-<section class="actions-section">
-	<a href="/catalog.php" class="back-link">Назад к списку товаров</a>
-	<div class="actions-section__right">
-		<a href="#" class="actions-section__1buy">Купить в 1 клик</a>
-		<a href="/checkout-opt.php" class="btn btn--blue btn--big">Оформить заказ</a>
+<form action="#">
+
+
+<section class="method-sec">
+	<h2 class="method-sec__title">Способ доставки</h2>
+
+	<input type="radio" name="deliv_method" id="deliv_method_1">
+	<label class="method" for="deliv_method_1">
+		<figure>
+			<img src="/images/methods/bag.svg" alt="bag">
+		</figure>
+		<div class="user-content">
+			<h5 class="method__name">Доставка курьером (Москва и МО)</h5>
+			<p>Срок доставки от 1 до 3 дней. Доставка осуществляется в течение дня с 10.00 до 19.00. Только для оптовых покупателей.</p>
+			<br>
+			<strong>Стоимость доставки 300 рублей.</strong>
+		</div>
+	</label>
+
+	<input type="radio" name="deliv_method" id="deliv_method_2">
+	<label class="method" for="deliv_method_2">
+		<figure>
+			<img src="/images/methods/car.svg" alt="car">
+		</figure>
+		<div class="user-content">
+			<h5 class="method__name">Транспортная компания</h5>
+			<p>Срок доставки от 1 до 5 дней. Доставка осуществляется для оптовых покупателей.</p>
+			<br>
+			<strong>Стоимость доставки 600 рублей.</strong>
+		</div>
+	</label>
+
+	<input type="radio" name="deliv_method" id="deliv_method_3">
+	<label class="method" for="deliv_method_3">
+		<figure>
+			<img src="/images/methods/telega.svg" alt="telega">
+		</figure>
+		<div class="user-content">
+			<h5 class="method__name">Самовывоз</h5>
+			<p>Самовывоз доступен только для оптовых покупателей.</p>
+			<br>
+			<strong>Стоимость бесплатно</strong>
+		</div>
+	</label>
+
+</section>
+
+
+<section class="checkout-form">
+	<h2 class="checkout-form__title">Информация о покупателе</h2>
+
+	<div class="grid-4 grid-12_m">
+		<div class="input-group">
+			<label>Ф.И.О. *</label>
+			<input type="text" name="XXX">
+		</div>
+		<div class="input-group">
+			<label>E-mail *</label>
+			<input type="text" name="XXX">
+		</div>
+		<div class="input-group">
+			<label>Телефон *</label>
+			<input type="text" name="XXX">
+		</div>
+		<div class="input-group">
+			<label>Адрес доставки</label>
+			<input type="text" name="XXX">
+		</div>
 	</div>
+
+	<div class="grid-8 grid-12_m checkout-form__right">
+		<div class="input-group">
+			<label>Комментарий к заказу</label>
+			<textarea name="XXX" rows="10"></textarea>
+		</div>
+	</div>
+
+	<div class="checkout-form__note">*Поля, обязательные для заполнения.</div>
+
 </section>
 
 
-<section class="cart">
+<h2 class="cart-checkout-header">Заказ</h2>
+<section class="cart cart-checkout">
 
 	<header class="cart-header">
 		<div class="cart-header__1">Описание</div>
@@ -21,7 +96,6 @@
 		<div class="cart-header__3">Цена</div>
 		<div class="cart-header__4">Количество</div>
 		<div class="cart-header__5">Сумма</div>
-		<div class="cart-header__6">&nbsp;</div>
 	</header>
 
 	<div class="cart-item">
@@ -50,20 +124,12 @@
 
 		<div class="cart-item-cell cart-item__quantity">
 			<span class="cart-item__mobile-title">Количество:</span>
-			<div class="quantity">
-				<figure class="quantity__minus"></figure>
-				<input type="text" value="1">
-				<figure class="quantity__plus"></figure>
-			</div>
+			<span>2</span>
 		</div>
 
 		<div class="cart-item-cell cart-item__summ">
 			<span class="cart-item__mobile-title">Сумма:</span>
 			<span class="ci-price">6 860 руб.</span>
-		</div>
-
-		<div class="cart-item-cell cart-item__delete">
-			<a href="#" class="ci-delete" title="Убрать из заказа"></a>
 		</div>
 
 	</div>
@@ -93,20 +159,12 @@
 
 		<div class="cart-item-cell cart-item__quantity">
 			<span class="cart-item__mobile-title">Количество:</span>
-			<div class="quantity">
-				<figure class="quantity__minus"></figure>
-				<input type="text" value="1">
-				<figure class="quantity__plus"></figure>
-			</div>
+			<span>1</span>
 		</div>
 
 		<div class="cart-item-cell cart-item__summ">
 			<span class="cart-item__mobile-title">Сумма:</span>
 			<span class="ci-price">6 860 руб.</span>
-		</div>
-
-		<div class="cart-item-cell cart-item__delete">
-			<a href="#" class="ci-delete" title="Убрать из заказа"></a href="#">
 		</div>
 
 	</div>
@@ -148,12 +206,11 @@
 
 
 <section class="actions-section">
-	<a href="/catalog.php" class="back-link">Назад к списку товаров</a>
 	<div class="actions-section__right">
-		<a href="#" class="actions-section__1buy">Купить в 1 клик</a>
-		<a href="/checkout-rozn.php" class="btn btn--blue btn--big">Оформить заказ</a>
+		<a href="#" class="btn btn--blue btn--big">Оформить заказ</a>
 	</div>
 </section>
 
+</form>
 
 <?php include('footer.php'); ?>
