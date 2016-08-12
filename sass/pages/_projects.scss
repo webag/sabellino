@@ -1,0 +1,31 @@
+.project{
+	margin-bottom: 70px;
+
+	&__left{
+		padding-right: 100px;
+		@include res(xl){
+			padding-right: 50px;
+		}
+		@include res(l){
+			padding-right: 10px;
+		}
+		@include res(m){
+			padding-right: 0;
+			margin-bottom: 30px;
+		}
+	}
+
+	&__title{
+		@extend h5;
+		margin-bottom: 0.7em;
+		margin-top: 30px;
+	}
+
+	address{
+		font-style: normal;
+	}
+
+	.c-block{
+		margin-top: 30px;
+	}
+}

@@ -185,3 +185,30 @@ $(document).ready(function(){
 	});
 });
 // quantity
+
+
+// tabs
+$(document).ready(function(){
+	$('._tabs--js a').on('click',function () {
+		var index = $(this).index();
+		select_tab(index);
+		return false;
+	});
+});
+
+function select_tab(index_tab) {
+	$('._tabs--js a').removeClass('active').eq(index_tab).addClass('active');
+	$('._tab--js').removeClass('visible').eq(index_tab).addClass('visible');
+}
+// tabs
+
+
+// tabs-brands
+$(document).ready(function(){
+	if ($("#brand_to_show").data('brand') !== ""){
+		var brand_index = $("#brand_to_show").data('brand');
+		select_tab(brand_index);
+		$('html,body').animate({scrollTop:$('._tabs--js').offset().top}, 500);
+	}
+});
+// tabs-brands

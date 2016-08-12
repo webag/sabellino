@@ -104,10 +104,12 @@
 				<i class="i-down"></i>
 			</div>
 			<ul class="sub-menu">
-				<li><a href="#">О компании</a></li>
-				<li><a href="#">Бренды</a></li>
+				<li><a href="/about.php">О компании</a></li>
+				<li><a href="/brands.php">Бренды</a></li>
 				<li><a href="/blog.php">Блог Sabellino</a></li>
 				<li><a href="/materials.php">Информация о материалах</a></li>
+				<li><a href="/projects.php">Наши проекты</a></li>
+				<li><a href="/parner.php">Условия сотрудничества</a></li>
 			</ul>
 		</li>
 		<li class="has-sub">
@@ -122,7 +124,7 @@
 			</ul>
 		</li>
 		<li><a href="/franchise.php">Франчайзинг</a></li>
-		<li><a href="#">Контакты</a></li>
+		<li><a href="/contacts.php">Контакты</a></li>
 	</ul>
 
 </div>
@@ -138,10 +140,12 @@
 					<i class="i-down"></i>
 				</div>
 				<ul class="sub-menu">
-					<li><a href="#">О компании</a></li>
-					<li><a href="#">Бренды</a></li>
+					<li><a href="/about.php">О компании</a></li>
+					<li><a href="/brands.php">Бренды</a></li>
 					<li><a href="/blog.php">Блог Sabellino</a></li>
 					<li><a href="/materials.php">Информация о материалах</a></li>
+					<li><a href="/projects.php">Наши проекты</a></li>
+					<li><a href="/parner.php">Условия сотрудничества</a></li>
 				</ul>
 			</li>
 			<li class="has-sub">
@@ -156,7 +160,7 @@
 				</ul>
 			</li>
 			<li><a href="/franchise.php">Франчайзинг</a></li>
-			<li><a href="#">Контакты</a></li>
+			<li><a href="/contacts.php">Контакты</a></li>
 		</ul>
 
 		<a href="tel:8(800)922-06-90" class="site-top-tel">8 (800) 922-06-90</a>

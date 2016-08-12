@@ -1,0 +1,50 @@
+.contacts{
+
+	&__left{
+		padding-right: 100px;
+		@include res(xl){
+			padding-right: 50px;
+		}
+		@include res(l){
+			padding-right: 10px;
+		}
+		@include res(m){
+			padding-right: 0;
+		}
+	}
+
+	&__item{
+		margin-bottom: 50px;
+	}
+
+	&__title{
+		@extend h4;
+		margin-bottom: 0.3em;
+	}
+
+	&__subtitle{
+		@extend h5;
+		margin-bottom: 0.3em;
+		margin-top: 20px;
+	}
+
+	.c-block{
+		margin-top: 15px;
+	}
+
+	address{
+		font-style: normal;
+	}
+
+	&__map{
+		margin: 25px 0;
+		height: 500px;
+		background-color: $grey-light;
+		@include res(l){
+			height: 350px;
+		}
+		@include res(s){
+			height: 250px;
+		}
+	}
+}

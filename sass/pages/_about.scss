@@ -1,0 +1,73 @@
+.about-brands{
+	padding: 30px 0;
+}
+
+.about-brand{
+	padding: 0 50px;
+	@include res(l){
+		padding: 0 25px;
+	}
+	@include res(m){
+		padding: 0 10px;
+	}
+	@include res(s){
+		padding: 0;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	img{
+		max-width: 100%;
+		height: auto;
+		display: block;
+		margin-bottom: 25px;
+		@include res(s){
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 10px;
+		}
+	}
+
+	&__more{
+		font-weight: bold;
+		color: $baklazan;
+		@extend %link-hover--pink;
+	}
+}
+
+
+.about-top-text{
+	@extend .section-text;
+	padding: 30px 0;
+}
+
+.about-partners{
+	@extend .section-text;
+	padding: 30px 0;
+
+	&__title{
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	&__list{
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		flex-wrap: wrap;
+
+		img{
+			margin: 0 30px 50px 30px;
+		}
+	}
+}
+
+.about-middle-text{
+	@extend .section-text;
+	padding: 30px 0;
+}
+
+.about-prizes{
+	@extend .section-text;
+	padding: 50px 0 30px 0;
+}
