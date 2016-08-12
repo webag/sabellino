@@ -1,14 +1,99 @@
 .agmodal{
 	position: relative;
-	background: #f7f8f9;
-	box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
-	width: 450px;
+	background: #FFF;
+	box-shadow: 0 0 18px 2px rgba(0,0,0,0.4);
+	width: 500px;
 	margin: 50px auto;
-	padding: 30px 35px 30px 35px;
 	transition: all 0.4s ease;
 	transform-origin: center top;
 	cursor: auto;
 	display: none;
+	@include res(s){
+		width: 100%;
+		max-width:100%;
+	}
+
+	main{
+		text-align: left;
+		padding: 20px 35px 30px 35px;
+		@include res(s){
+			padding: 20px 20px;
+		}
+	}
+
+	footer{
+		padding: 20px 35px;
+		text-align: center;
+		background-color: lighten($grey-light,12%);
+		color: $grey;
+		@include res(s){
+			padding: 20px 20px;
+		}
+
+		a{
+			@extend %link--baklazan-line;
+		}
+	}
+
+	&__title{
+		text-align: center;
+		padding: 0 30px;
+		font-size: 22px;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: $grey;
+		line-height: 1.3;
+		margin-bottom: 20px;
+		@include res(s){
+			font-size: 16px;
+		}
+	}
+
+	&__description{
+		margin-bottom: 15px;
+	}
+
+	&--fran{
+		width: 720px;
+		max-width: 100%;
+	}
+
+	&--choose-registr{
+		main{
+			text-align: center;
+		}
+		.btn{
+			width: 340px;
+			max-width: 100%;
+			margin-bottom: 25px;
+			&:last-of-type{
+				margin-bottom: 0;
+			}
+			@include res(m){
+				font-size: 16px;
+			}
+		}
+	}
+
+	&--spasibo{
+
+		main{
+			text-align: center;
+			padding: 40px 35px 40px 35px;
+			@include res(s){
+				padding: 30px 20px;
+			}
+		}
+
+		.agmodal__description{
+			font-size: 18px;
+			margin-bottom: 0;
+			@include res(s){
+				font-size: 14px;
+			}
+		}
+	}
+
 
 	&--fade{
 		opacity: 0;
@@ -50,12 +135,7 @@
 	}
 }
 
-@media (max-width: 600px){
-	.agmodal{
-		width: 100%;
-		max-width:100%;
-	}
-}
+
 
 html.agmodal--lock-test{
 	overflow-y: hidden !important;
@@ -106,9 +186,9 @@ html.agmodal--lock{
 }
 
 .agmodal__close{
-	@include cross(30px,#d1d1d1,#000);
-	top: 7px;
-	right: 7px;
+	@include cross(30px,$grey-light,$orange);
+	top: 13px;
+	right: 13px;
 }
 
 .agmodal__video-preloader{

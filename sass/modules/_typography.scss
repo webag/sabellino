@@ -65,7 +65,55 @@ h5{
 		margin-bottom: 0.7em;
 	}
 
-	a{
+	h2{
+		text-align: center;
+	}
+
+	a:not(.btn){
 		@extend %link--baklazan-line;
+	}
+
+	img{
+		max-width: 100%;
+		height: auto;
+		display: block;
+		margin: 45px auto;
+	}
+
+	.img-slider{
+		margin: 45px 0;
+	}
+
+	.video-block{
+		margin: 45px auto;
+		max-width: 630px;
+	}
+
+
+	ul{
+		list-style: none;
+		padding-left: 20px;
+
+		li{
+
+			&:before{
+				content: '•';
+				margin-right: 5px;
+			}
+		}
+	}
+
+	ol{
+		list-style: none;
+		counter-reset: ol;
+
+		li{
+			counter-increment: ol;
+
+			&:before{
+				content: counter(ol)".";
+				margin-right: 15px;
+			}
+		}
 	}
 }

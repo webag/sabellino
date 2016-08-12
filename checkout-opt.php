@@ -63,11 +63,11 @@
 		</div>
 		<div class="input-group">
 			<label>E-mail *</label>
-			<input type="text" name="XXX">
+			<input type="email" name="XXX" class="error">
 		</div>
 		<div class="input-group">
 			<label>Телефон *</label>
-			<input type="text" name="XXX">
+			<input type="tel" name="XXX">
 		</div>
 		<div class="input-group">
 			<label>Адрес доставки</label>
@@ -207,7 +207,7 @@
 
 <section class="actions-section">
 	<div class="actions-section__right">
-		<a href="#" class="btn btn--blue btn--big">Оформить заказ</a>
+		<button type="submit" class="btn btn--blue btn--big">Оформить заказ</button>
 	</div>
 </section>
 

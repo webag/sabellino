@@ -1,0 +1,29 @@
+.history-item{
+	margin-bottom: 50px;
+	border-bottom: 3px dashed $pink;
+
+	.cart-totals{
+		padding-left: 0;
+	}
+
+	.cart-footer{
+		border-bottom: none;
+	}
+}
+
+.cart-lk-header{
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	@include res(s){
+		flex-direction: column;
+	}
+
+	&__num{
+		@extend h3;
+		margin-right: 15px;
+		@include res(s){
+			margin-bottom: 10px;
+		}
+	}
+}

@@ -1,0 +1,45 @@
+.tabs{
+	border-bottom: 1px solid $grey-light;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 55px;
+	@include res(s){
+		flex-direction: column;
+		align-items: center;
+		border-bottom: none;
+	}
+
+	a{
+		margin: 0 25px -1px 25px;
+		padding-bottom: 15px;
+		font-size: 16px;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: $baklazan;
+		border-bottom: 6px solid transparent;
+		text-align: center;
+		@include res(m){
+			font-size: 14px;
+			margin: 0 15px -1px 15px;
+		}
+		@include res(s){
+			background-color: lighten($grey-light,18%);
+			width: 100%;
+			padding: 15px 10px;
+			border-width: 0;
+		}
+
+		&.active{
+			border-color: $baklazan;
+			pointer-events: none;
+			@include res(s){
+				background-color: $baklazan;
+				color: #FFF;
+			}
+		}
+		
+		&:hover{
+			color: $pink;
+		}
+	}
+}

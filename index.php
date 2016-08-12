@@ -25,6 +25,18 @@
 			<img src="/images/thumbs/home-slide2.jpg" alt="homeslide2">
 		</div>
 	</div>
+	<div class="home-slide home-slide--white-text">
+		<div class="home-slide__left" style="background-color:#a5bd7f;">
+			<div class="home-slide__content">
+				<span class="home-slide__subtitle">Коллекции 2015 года</span>
+				<p class="home-slide__title"><strong>Толстовки</strong> со скидками</p>
+				<a href="/sales-details.php" class="btn btn--white btn--big">Выбрать и купить</a>
+			</div>
+		</div>
+		<div class="home-slide__right">
+			<img src="/images/thumbs/home-slide3.jpg" alt="homeslide">
+		</div>
+	</div>
 </section>
 
 
@@ -75,7 +87,7 @@
 	<div class="row">
 
 		<div class="home-sbanner">
-			<a href="#"><img src="/images/thumbs/trig1.jpg" alt="trig1"></a>
+			<a href="#"><img src="/images/thumbs/trig1.jpg" alt="415x255"></a>
 			<div class="home-sbanner__content">
 				<h3>Толстовки</h3>
 				<p>Выберите удобную и практичную толстовку, которую будете носить всегда</p>
@@ -85,7 +97,7 @@
 
 
 		<div class="home-sbanner">
-			<a href="#"><img src="/images/thumbs/trig2.jpg" alt="trig2"></a>
+			<a href="#"><img src="/images/thumbs/trig2.jpg" alt="415x255"></a>
 			<div class="home-sbanner__content">
 				<h3>Рюкзаки</h3>
 				<p>Ваш рюкзак, на каждый день, разное настроение и любую погоду</p>
@@ -95,7 +107,7 @@
 
 
 		<div class="home-sbanner">
-			<a href="#"><img src="/images/thumbs/trig3.jpg" alt="trig3"></a>
+			<a href="#"><img src="/images/thumbs/trig3.jpg" alt="415x255"></a>
 			<div class="home-sbanner__content">
 				<h3>Скидка 50%<br>на палантины</h3>
 				<p>Только в розничных магазинах</p>
@@ -142,7 +154,7 @@
 				</div>
 				<div class="ti-buy">
 					<button class="btn btn--blue btn--big">В корзину</button>
-					<a href="#" class="ti-buy__oneclick">Купить в 1 клик</a>
+					<a href="#" data-ag="modal-oneclick" class="ti-buy__oneclick">Купить в 1 клик</a>
 				</div>
 			</footer>
 		</div>
@@ -178,7 +190,7 @@
 				</div>
 				<div class="ti-buy">
 					<button class="btn btn--blue btn--big">В корзину</button>
-					<a href="#" class="ti-buy__oneclick">Купить в 1 клик</a>
+					<a href="#" data-ag="modal-oneclick" class="ti-buy__oneclick">Купить в 1 клик</a>
 				</div>
 			</footer>
 		</div>
@@ -205,7 +217,7 @@
 			<footer>
 				<div class="ti-buy">
 					<button class="btn btn--blue btn--big">В корзину</button>
-					<a href="#" class="ti-buy__oneclick">Купить в 1 клик</a>
+					<a href="#" data-ag="modal-oneclick" class="ti-buy__oneclick">Купить в 1 клик</a>
 				</div>
 			</footer>
 		</div>
@@ -234,7 +246,7 @@
 				</div>
 				<div class="ti-buy">
 					<button class="btn btn--blue btn--big">В корзину</button>
-					<a href="#" class="ti-buy__oneclick">Купить в 1 клик</a>
+					<a href="#" data-ag="modal-oneclick" class="ti-buy__oneclick">Купить в 1 клик</a>
 				</div>
 			</footer>
 		</div>

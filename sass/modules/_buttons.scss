@@ -86,3 +86,28 @@
 		color: $pink;
 	}
 }
+
+
+.btn--square-bak{
+	background-color: $baklazan;
+	color: #FFF;
+	font-size: 22px;
+	font-weight: normal;
+	text-transform: none;
+
+	&:hover{
+		background-color: lighten($baklazan,20%);
+	}
+}
+
+.btn--square-grey{
+	background-color: lighten($grey,20%);
+	color: #FFF;
+	font-size: 22px;
+	font-weight: normal;
+	text-transform: none;
+
+	&:hover{
+		background-color: lighten($grey,30%);
+	}
+}

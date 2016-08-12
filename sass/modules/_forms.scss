@@ -1,14 +1,14 @@
-input[type="text"],input[type="tel"],input[type="email"],textarea{
+input[type="text"],input[type="tel"],input[type="email"],input[type="password"],textarea{
 	background-color: #fff;
 	font-family: $main-font;
 	font-size: 16px;
 	line-height: 1;
 	border: 1px solid #d1d1d1;
-	box-shadow: none;
 	padding: 7px 15px;
 	border-radius: 3px;
 	width: 100%;
 	transition: all 0.3s ease;
+	box-shadow: none;
 
 	@include placeholder {
 		color: #999999;
@@ -22,10 +22,16 @@ input[type="text"],input[type="tel"],input[type="email"],textarea{
 
 	&:focus{
 		outline: none;
-		border: 1px solid $blue;
+		border: 1px solid $pink;
+		box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
 		@include placeholder {
 			opacity: 0;
 		}
+	}
+	
+	&.error{
+		border: 1px solid $orange;
+		background-color: transparentize($orange,0.8);
 	}
 }
 
@@ -35,5 +41,97 @@ input[type="text"],input[type="tel"],input[type="email"],textarea{
 	label{
 		display: block;
 		margin-bottom: 10px;
+	}
+}
+
+.fran-form{
+	margin-left: -10px;
+	margin-right: -10px;
+
+	.input-group{
+		padding: 0 10px;
+	}
+
+	.fr-choose{
+		padding: 25px 0 50px 0;
+		text-align: center;
+		@include res(s){
+			text-align: left;
+			padding: 25px 0;
+		}
+
+		p{
+			font-size: 22px;
+			color: $grey;
+			margin-bottom: 30px;
+			@include res(s){
+				margin-bottom: 15px;
+				font-size: 16px;
+			}
+		}
+	}
+
+	.radio-input{
+		margin: 0 50px;
+		display: inline-block;
+		vertical-align: middle;
+		@include res(m){
+			margin: 0 20px;
+		}
+		@include res(s){
+			display: block;
+			margin: 0 0 10px 10px;
+		}
+	}
+}
+
+
+.radio-input{
+	cursor: pointer;
+
+	&:hover{
+		.radio-input__style:after{
+			opacity: 0.4;
+		}
+	}
+
+	input{
+		opacity: 0;
+		position: absolute;
+
+		&:checked+.radio-input__style:after{
+			opacity: 1;
+		}
+	}
+	
+	&__style{
+		position: relative;
+		color: $grey;
+		font-size: 20px;
+		padding-left: 25px;
+
+		&:before{
+			content: '';
+			width: 14px;
+			height: 14px;
+			position: absolute;
+			left: 0;
+			top: 7px;
+			border: 1px solid $grey;
+			transition: all 0.3s ease;
+		}
+
+		&:after{
+			content: '';
+			width: 14px;
+			height: 14px;
+			position: absolute;
+			left: 0;
+			top: 7px;
+			border: 1px solid $grey;
+			background-color: $baklazan;
+			opacity: 0;
+			transition: all 0.3s ease;
+		}
 	}
 }

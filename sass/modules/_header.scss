@@ -145,6 +145,10 @@
 //user-menu
 .user-menu{
 	text-align: right;
+	@include res(l){
+		text-align: left;
+		margin-bottom: 10px;
+	}
 
 	a{
 		position: relative;
@@ -159,15 +163,22 @@
 			line-height: 1;
 			color: $baklazan;
 			transition: all 0.3s ease;
-			border-bottom: 1px dotted $baklazan;
+			border-bottom: 1px solid $baklazan;
 			white-space: nowrap;
+
+			&.um-dotted{
+				border-bottom: 1px dotted $baklazan;
+			}
 		}
 
 		&:hover{
 			background-color: lighten($grey-light,13%);
 
 			span{
-				border-bottom: 1px dotted transparent;
+				border-bottom: 1px solid transparent;
+				&.um-dotted{
+					border-bottom: 1px dotted transparent;
+				}
 			}
 		}
 	}

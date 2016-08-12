@@ -38,6 +38,12 @@
 
 <div class="mobile-menu">
 
+	<nav class="user-menu">
+		<a href="/lk-info.php"><span>Личный кабинет</span></a>
+		<a href="/login.php"><span>Вход</span></a>
+		<a href="#" data-ag="choose-registr"><span class="um-dotted">Регистрация</span></a>
+	</nav>
+
 	<form action="#" class="mobile-search-form">
 		<input type="text" name="search-input" placeholder="Поиск">
 		<button type="submit" title="Найти"><i class="i-search"></i></button>
@@ -83,8 +89,8 @@
 				<i class="i-down"></i>
 			</div>
 			<ul class="sub-menu">
-				<li><a href="/catalog.php">Сумки</a></li>
-				<li><a href="/catalog.php">Ремни</a></li>
+				<li><a href="/sales.php">Розничным покупателям</a></li>
+				<li><a href="/sales.php">Оптовым покупателям</a></li>
 			</ul>
 		</li>
 	</ul>
@@ -100,7 +106,8 @@
 			<ul class="sub-menu">
 				<li><a href="#">О компании</a></li>
 				<li><a href="#">Бренды</a></li>
-				<li><a href="#">Блог Sabellino</a></li>
+				<li><a href="/blog.php">Блог Sabellino</a></li>
+				<li><a href="/materials.php">Информация о материалах</a></li>
 			</ul>
 		</li>
 		<li class="has-sub">
@@ -109,11 +116,12 @@
 				<i class="i-down"></i>
 			</div>
 			<ul class="sub-menu">
-				<li><a href="#">Розничным покупателям</a></li>
-				<li><a href="#">Оптовым покупателям</a></li>
+				<li><a href="/delivery-rozn.php">Розничным покупателям</a></li>
+				<li><a href="/delivery-opt.php">Оптовым покупателям</a></li>
+				<li><a href="/cancel.php">Возврат и обмен</a></li>
 			</ul>
 		</li>
-		<li><a href="#">Франчайзинг</a></li>
+		<li><a href="/franchise.php">Франчайзинг</a></li>
 		<li><a href="#">Контакты</a></li>
 	</ul>
 
@@ -132,7 +140,8 @@
 				<ul class="sub-menu">
 					<li><a href="#">О компании</a></li>
 					<li><a href="#">Бренды</a></li>
-					<li><a href="#">Блог Sabellino</a></li>
+					<li><a href="/blog.php">Блог Sabellino</a></li>
+					<li><a href="/materials.php">Информация о материалах</a></li>
 				</ul>
 			</li>
 			<li class="has-sub">
@@ -141,20 +150,21 @@
 					<i class="i-down"></i>
 				</div>
 				<ul class="sub-menu">
-					<li><a href="#">Розничным покупателям</a></li>
-					<li><a href="#">Оптовым покупателям</a></li>
+					<li><a href="/delivery-rozn.php">Розничным покупателям</a></li>
+					<li><a href="/delivery-opt.php">Оптовым покупателям</a></li>
+					<li><a href="/cancel.php">Возврат и обмен</a></li>
 				</ul>
 			</li>
-			<li><a href="#">Франчайзинг</a></li>
+			<li><a href="/franchise.php">Франчайзинг</a></li>
 			<li><a href="#">Контакты</a></li>
 		</ul>
 
 		<a href="tel:8(800)922-06-90" class="site-top-tel">8 (800) 922-06-90</a>
 
 		<nav class="user-menu">
-			<a href="#"><span>Личный кабинет</span></a>
-			<a href="#"><span>Вход</span></a>
-			<a href="#"><span>Регистрация</span></a>
+			<a href="/lk-info.php"><span>Личный кабинет</span></a>
+			<a href="/login.php"><span>Вход</span></a>
+			<a href="" data-ag="choose-registr"><span class="um-dotted">Регистрация</span></a>
 		</nav>
 	</div>
 </div>
@@ -213,8 +223,8 @@
 					<i class="i-down"></i>
 				</div>
 				<ul class="sub-menu">
-					<li><a href="/catalog.php">Сумки</a></li>
-					<li><a href="/catalog.php">Ремни</a></li>
+					<li><a href="/sales.php">Розничным покупателям</a></li>
+					<li><a href="/sales.php">Оптовым покупателям</a></li>
 				</ul>
 			</li>
 		</ul>

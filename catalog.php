@@ -262,7 +262,7 @@
 						</div>
 						<div class="ti-buy">
 							<button class="btn btn--blue btn--big">В корзину</button>
-							<a href="#" class="ti-buy__oneclick">Купить в 1 клик</a>
+							<a href="#" data-ag="modal-oneclick" class="ti-buy__oneclick">Купить в 1 клик</a>
 						</div>
 					</footer>
 				</div>
@@ -298,7 +298,7 @@
 						</div>
 						<div class="ti-buy">
 							<button class="btn btn--blue btn--big">В корзину</button>
-							<a href="#" class="ti-buy__oneclick">Купить в 1 клик</a>
+							<a href="#" data-ag="modal-oneclick" class="ti-buy__oneclick">Купить в 1 клик</a>
 						</div>
 					</footer>
 				</div>
@@ -325,7 +325,7 @@
 					<footer>
 						<div class="ti-buy">
 							<button class="btn btn--blue btn--big">В корзину</button>
-							<a href="#" class="ti-buy__oneclick">Купить в 1 клик</a>
+							<a href="#" data-ag="modal-oneclick" class="ti-buy__oneclick">Купить в 1 клик</a>
 						</div>
 					</footer>
 				</div>
@@ -392,7 +392,7 @@
 						</div>
 						<div class="ti-buy">
 							<button class="btn btn--blue btn--big">В корзину</button>
-							<a href="#" class="ti-buy__oneclick">Купить в 1 клик</a>
+							<a href="#" data-ag="modal-oneclick" class="ti-buy__oneclick">Купить в 1 клик</a>
 						</div>
 					</footer>
 				</div>
@@ -428,7 +428,7 @@
 						</div>
 						<div class="ti-buy">
 							<button class="btn btn--blue btn--big">В корзину</button>
-							<a href="#" class="ti-buy__oneclick">Купить в 1 клик</a>
+							<a href="#" data-ag="modal-oneclick" class="ti-buy__oneclick">Купить в 1 клик</a>
 						</div>
 					</footer>
 				</div>
@@ -455,7 +455,7 @@
 					<footer>
 						<div class="ti-buy">
 							<button class="btn btn--blue btn--big">В корзину</button>
-							<a href="#" class="ti-buy__oneclick">Купить в 1 клик</a>
+							<a href="#" data-ag="modal-oneclick" class="ti-buy__oneclick">Купить в 1 клик</a>
 						</div>
 					</footer>
 				</div>
@@ -522,7 +522,7 @@
 						</div>
 						<div class="ti-buy">
 							<button class="btn btn--blue btn--big">В корзину</button>
-							<a href="#" class="ti-buy__oneclick">Купить в 1 клик</a>
+							<a href="#" data-ag="modal-oneclick" class="ti-buy__oneclick">Купить в 1 клик</a>
 						</div>
 					</footer>
 				</div>
@@ -558,7 +558,7 @@
 						</div>
 						<div class="ti-buy">
 							<button class="btn btn--blue btn--big">В корзину</button>
-							<a href="#" class="ti-buy__oneclick">Купить в 1 клик</a>
+							<a href="#" data-ag="modal-oneclick" class="ti-buy__oneclick">Купить в 1 клик</a>
 						</div>
 					</footer>
 				</div>
@@ -585,7 +585,7 @@
 					<footer>
 						<div class="ti-buy">
 							<button class="btn btn--blue btn--big">В корзину</button>
-							<a href="#" class="ti-buy__oneclick">Купить в 1 клик</a>
+							<a href="#" data-ag="modal-oneclick" class="ti-buy__oneclick">Купить в 1 клик</a>
 						</div>
 					</footer>
 				</div>
@@ -681,7 +681,7 @@
 						</div>
 						<div class="ti-buy">
 							<button class="btn btn--blue btn--big">В корзину</button>
-							<a href="#" class="ti-buy__oneclick">Купить в 1 клик</a>
+							<a href="#" data-ag="modal-oneclick" class="ti-buy__oneclick">Купить в 1 клик</a>
 						</div>
 					</footer>
 				</div>
@@ -717,7 +717,7 @@
 						</div>
 						<div class="ti-buy">
 							<button class="btn btn--blue btn--big">В корзину</button>
-							<a href="#" class="ti-buy__oneclick">Купить в 1 клик</a>
+							<a href="#" data-ag="modal-oneclick" class="ti-buy__oneclick">Купить в 1 клик</a>
 						</div>
 					</footer>
 				</div>

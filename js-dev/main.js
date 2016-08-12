@@ -37,7 +37,6 @@ $(document).ready(function(){
 				console.log(result);
 				form.parents('.agmodal').agmodal('close');
 				$('#modal-spasibo').agmodal('open');
-				setTimeout(function() {$('#modal-spasibo').agmodal('close');},4500);
 				form.find("input[type!='hidden']").val('');
 			});
 		}
@@ -53,7 +52,7 @@ jQuery(function($){
 $(document).ready(function(){
 	$('.agmodal').agmodal({
 		effect: 'fade',
-		overlayColor: 'rgba(44, 55, 73, 0.9)'
+		overlayColor: 'rgba(50, 50, 50, 0.6)'
 	});
 });
 
@@ -154,6 +153,24 @@ $(document).ready(function(){
 	});
 });
 // tovar-slider
+
+
+// img-slider
+$(document).ready(function(){
+	$('.img-slider').flickity({
+		contain: true,
+		adaptiveHeight: true,
+		imagesLoaded: true,
+		pageDots: false,
+		arrowShape: {
+			x0: 30,
+			x1: 50, y1: 40,
+			x2: 60, y2: 40,
+			x3: 40
+		}
+	});
+});
+// img-slider
 
 
 // quantity

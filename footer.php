@@ -15,7 +15,7 @@
 
 		<div class="site-footer__block site-footer__block--img">
 			<img src="/images/map.svg" alt="map">
-			<p>107076, г.&nbsp;Москва,<br>Проектируемый проезд  №&nbsp;4062,&nbsp;6</p>
+			<p>107076, г.&nbsp;Москва,<br>Проектируемый проезд №&nbsp;4062,&nbsp;6</p>
 		</div>
 
 		<div class="site-footer__block site-footer__block--img">
@@ -36,7 +36,7 @@
 
 <div class="site-bottom">
 	<div class="container">
-		<a href="#" data-ag="modal-call" class="site-bottom__policy">Политика конфиденциальности</a>
+		<a href="#" data-ag="modal-policy" class="site-bottom__policy">Политика конфиденциальности</a>
 		<div class="site-bottom__pay">
 			<span>Принимаем к оплате:</span>
 			<img src="/images/payments.png" alt="методы оплаты">
@@ -47,20 +47,59 @@
 <!-- Модальные окна -->
 <div class="modals-sec">
 
-	<div id="modal-call" class="agmodal">
-		<p>Заказать обратный звонок</p>
-		<p>Оставьте заявку и наш администратор свяжется<br>с&nbsp;Вами в течение 10 минут</p>
-		<form class="ajax-form vertical-form black-form">
-			<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя">
-			<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="Email" data-req="true">
-			<input type="tel" name="user_tel" data-label="Телефон" placeholder="Введите телефон*" data-req="true">
-			<input type="hidden" value="Новая заявка" name="form_subject">
-			<button type="submit">Отправить</button>
-		</form>
+	<div id="modal-oneclick" class="agmodal">
+		<main>
+			<p class="agmodal__title">Купить в один клик</p>
+			<p class="agmodal__description">Наш менеджер свяжется с вами в течении 10 минут</p>
+			<form class="ajax-form">
+				<div class="input-group">
+					<label>Ф.И.О.</label>
+					<input type="text" name="user_name" data-label="Ф.И.О.">
+				</div>
+				<div class="input-group">
+					<label>Телефон *</label>
+					<input type="tel" name="user_tel" data-req="true" data-label="Телефон">
+				</div>
+				<input type="hidden" name="form_subject" value="Купить в один клик">
+				<button type="submit" class="btn btn--blue btn--big">Отправить</button>
+			</form>
+		</main>
 	</div>
 
-	<div id="modal-spasibo" class="agmodal">
-		<p class="agmodal__title">Спасибо за заявку!</p>
+	<div id="choose-registr" class="agmodal agmodal--choose-registr">
+		<main>
+			<p class="agmodal__title">выберите форму регистрации</p>
+			<a href="/registr-rozn.php" class="btn btn--square-bak btn--big">Розничный покупатель</a>
+			<a href="/registr-opt.php" class="btn btn--square-grey btn--big">Оптовый покупатель</a>
+		</main>
+		<footer>
+			<p>Уже зарегистрированы? <a href="/login.php">Войдите&nbsp;в&nbsp;аккаунт</a></p>
+		</footer>
+	</div>
+
+	<div id="modal-policy" class="agmodal">
+		<main>
+			<p class="agmodal__title">Политика конфиденциальности</p>
+			<div class="user-content">
+				<p>Отправляя форму регистрации, Вы&nbsp;автоматически даете свое согласие на&nbsp;обработку персональных данных.</p>
+				<h5>Отправляя форму регистрации</h5>
+				<p>Отправляя форму регистрации, Вы&nbsp;автоматически даете свое согласие на&nbsp;обработку персональных данных.</p>
+				<ul>
+					<li>Отправляя форму регистрации</li>
+					<li>Вы&nbsp;автоматически даете свое согласие на&nbsp;обработку персональных данных.</li>
+					<li>nbsp;обработку персональных данных.</li>
+				</ul>
+				<p>Отправляя форму регистрации, Вы&nbsp;автоматически даете свое согласие на&nbsp;обработку персональных данных. Отправляя форму регистрации, Вы&nbsp;автоматически даете свое согласие на&nbsp;обработку персональных данных.</p>
+			</div>
+		</main>
+	</div>
+
+	<div id="modal-spasibo" class="agmodal agmodal--spasibo">
+		<main>
+			<p class="agmodal__title">Спасибо за Ваше обращение!</p>
+			<p class="agmodal__description">Менеджер отдела развития в ближайшее время
+				свяжется с Вами для уточнения деталей.</p>
+		</main>
 	</div>
 
 </div>
