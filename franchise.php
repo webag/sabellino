@@ -80,6 +80,9 @@
 			<button type="submit" class="btn btn--blue btn--big">Отправить</button>
 		</form>
 	</main>
+	<footer>
+		<p>Отправляя форму, Вы автоматически даете свое согласие на обработку персональных данных.</p>
+	</footer>
 </div>
 
 
@@ -97,8 +100,8 @@
 
 <section class="fr-usl-sec">
 	<h2>Условия сотрудничества</h2>
-	<a href="/parner.php" class="btn btn--baklazan btn--big">Франчайзинг Piero</a>
-	<a href="/parner.php" class="btn btn--baklazan btn--big">Франчайзинг Sabellino</a>
+	<a href="/uslovia.php" class="btn btn--baklazan btn--big">Франчайзинг Piero</a>
+	<a href="/uslovia.php" class="btn btn--baklazan btn--big">Франчайзинг Sabellino</a>
 </section>
 
 

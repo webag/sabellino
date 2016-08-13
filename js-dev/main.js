@@ -205,10 +205,12 @@ function select_tab(index_tab) {
 
 // tabs-brands
 $(document).ready(function(){
-	if ($("#brand_to_show").data('brand') !== ""){
-		var brand_index = $("#brand_to_show").data('brand');
-		select_tab(brand_index);
-		$('html,body').animate({scrollTop:$('._tabs--js').offset().top}, 500);
+	if ($("#brand_to_show").length){
+		if ($("#brand_to_show").data('brand') !== ""){
+			var brand_index = $("#brand_to_show").data('brand');
+			select_tab(brand_index);
+			$('html,body').animate({scrollTop:$('._tabs--js').offset().top-45}, 500);
+		}
 	}
 });
 // tabs-brands

@@ -8,9 +8,27 @@
 <section class="partner-top-text user-content">
 	<p>В течение суток, после регистрации на сайте с Вами свяжется персональный менеджер, чтобы проконсультировать Вас по партнерской программе компании и ответить на все интересующие Вас вопросы. Для начала сотрудничества, Вам необходимо будет подготовить пакет документов. </p>
 	<div class="partner-top-text__btn">
-		<a href="#" class="btn btn--baklazan btn--big">Условия работы</a>
+		<a href="#" data-ag="modal-uslovia" class="btn btn--baklazan btn--big">Условия работы</a>
 	</div>
 </section>
+
+<div id="modal-uslovia" class="agmodal">
+	<main>
+		<p class="agmodal__title">Условия работы</p>
+		<div class="user-content">
+			<p>Отправляя форму регистрации, Вы&nbsp;автоматически даете свое согласие на&nbsp;обработку персональных данных.</p>
+			<h5>Отправляя форму регистрации</h5>
+			<p>Отправляя форму регистрации, Вы&nbsp;автоматически даете свое согласие на&nbsp;обработку персональных данных.</p>
+			<ul>
+				<li>Отправляя форму регистрации</li>
+				<li>Вы&nbsp;автоматически даете свое согласие на&nbsp;обработку персональных данных.</li>
+				<li>nbsp;обработку персональных данных.</li>
+			</ul>
+			<p>Отправляя форму регистрации, Вы&nbsp;автоматически даете свое согласие на&nbsp;обработку персональных данных. Отправляя форму регистрации, Вы&nbsp;автоматически даете свое согласие на&nbsp;обработку персональных данных.</p>
+		</div>
+	</main>
+</div>
+
 
 <section class="home-triggers">
 	<h2 class="home-triggers__title">Преимущества</h2>
@@ -142,8 +160,35 @@
 
 <section class="partner-bottom">
 	<h4 class="partner-bottom__title">Более 3500 оптовых покупателей в регионах РФ</h4>
-	<a href="#" class="btn btn--baklazan btn--big">Стать партнером</a>
+	<a href="#" data-ag="modal-partner" class="btn btn--baklazan btn--big">Стать партнером</a>
 </section>
+
+<div id="modal-partner" class="agmodal">
+	<main>
+		<p class="agmodal__title">Стать партнером</p>
+		<form class="ajax-form fran-form">
+			<div class="input-group">
+				<label>Имя *</label>
+				<input type="text" name="user_name" data-req="true" data-label="Имя">
+			</div>
+			<div class="input-group">
+				<label>Телефон *</label>
+				<input type="tel" name="user_phone" data-req="true" data-label="Телефон">
+			</div>
+			<div class="input-group">
+				<label>E-mail</label>
+				<input type="email" name="user_mail" data-label="E-mail">
+			</div>
+			<div class="input-group">
+				<label>Комментарий</label>
+				<textarea type="text" name="user_question" data-label="Комментарий" rows="6"></textarea>
+			</div>
+			<div class="registr-sec__reqnote">* Поля, обязательные для заполнения.</div>
+			<input type="hidden" name="form_subject" value="Хочу стать партнером">
+			<button type="submit" class="btn btn--blue btn--big">Отправить</button>
+		</form>
+	</main>
+</div>
 
 
 

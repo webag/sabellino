@@ -109,7 +109,7 @@
 				<li><a href="/blog.php">Блог Sabellino</a></li>
 				<li><a href="/materials.php">Информация о материалах</a></li>
 				<li><a href="/projects.php">Наши проекты</a></li>
-				<li><a href="/parner.php">Условия сотрудничества</a></li>
+				<li><a href="/uslovia.php">Условия сотрудничества</a></li>
 			</ul>
 		</li>
 		<li class="has-sub">
@@ -145,7 +145,7 @@
 					<li><a href="/blog.php">Блог Sabellino</a></li>
 					<li><a href="/materials.php">Информация о материалах</a></li>
 					<li><a href="/projects.php">Наши проекты</a></li>
-					<li><a href="/parner.php">Условия сотрудничества</a></li>
+					<li><a href="/uslovia.php">Условия сотрудничества</a></li>
 				</ul>
 			</li>
 			<li class="has-sub">
