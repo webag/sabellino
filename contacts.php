@@ -71,7 +71,7 @@
 				<input type="email" name="user_mail" data-label="E-mail">
 			</div>
 			<div class="input-group">
-				<label>Текст вопроса *</label>
+				<label>Задать вопрос *</label>
 				<textarea type="text" name="user_question" data-req="true" data-label="Вопрос" rows="6"></textarea>
 			</div>
 			<div class="registr-sec__reqnote">* Поля, обязательные для заполнения.</div>
