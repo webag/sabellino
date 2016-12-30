@@ -214,3 +214,12 @@ $(document).ready(function(){
 	}
 });
 // tabs-brands
+
+
+// alert-block
+$(document).ready(function(){
+	$('.alert-close').on('click',function () {
+		$('.alert-sec').hide();
+	})
+});
+// alert-block

@@ -22,6 +22,13 @@
 
 <body>
 
+<div class="alert-sec">
+	<div class="container">
+		<h4>На сайте указаны розничные цены. Получите доступ к оптовым ценам.</h4>
+		<a href="#" class="btn btn--white">Получить</a>
+	</div>
+	<a href="#" class="alert-close"></a>
+</div>
 
 <!-- mobile-menu -->
 <div class="mobile-menu-panel">

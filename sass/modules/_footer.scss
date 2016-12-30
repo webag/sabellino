@@ -36,8 +36,10 @@
 		&--img{
 			display: flex;
 			align-items: center;
+			margin-bottom: 15px;
 
 			img{
+				width: 32px;
 				flex-shrink: 0;
 				margin-right: 10px;
 			}
@@ -48,14 +50,10 @@
 		}
 
 		&--social{
-			order: 1;
-			@include res(l){
-				order: 2;
-			}
 
 			img{
 				transition: all 0.3s ease;
-				margin: 0 3px;
+				margin: 0 1px;
 
 				&:hover{
 					opacity: 0.6;

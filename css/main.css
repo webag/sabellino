@@ -818,6 +818,122 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   background-color: #b3b3b3;
 }
 
+.alert-sec {
+  background-color: #5c2c4e;
+  padding: 5px 0;
+  color: #FFF;
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  .alert-sec {
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .alert-sec {
+    padding: 10px 0;
+  }
+}
+
+.alert-sec .container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 50px;
+}
+
+@media (max-width: 768px) {
+  .alert-sec .container {
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding-right: 0;
+  }
+}
+
+.alert-sec h4, .alert-sec .contacts__title {
+  margin-right: 50px;
+}
+
+@media (max-width: 1024px) {
+  .alert-sec h4, .alert-sec .contacts__title {
+    font-size: 14px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .alert-sec h4, .alert-sec .contacts__title {
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+}
+
+.alert-sec .alert-close {
+  position: absolute;
+  right: 10px;
+  bottom: 6px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #FFF;
+  border-radius: 50%;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .alert-sec .alert-close {
+    bottom: 10px;
+  }
+}
+
+.alert-sec .alert-close:hover {
+  background-color: #fff;
+}
+
+.alert-sec .alert-close:before, .alert-sec .alert-close:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  width: 15px;
+  height: 1px;
+  background-color: #FFF;
+  transition: all 0.3s ease;
+}
+
+.alert-sec .alert-close:hover:before, .alert-sec .alert-close:hover:after {
+  background-color: #000;
+}
+
+.alert-sec .alert-close:before {
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.alert-sec .alert-close:after {
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
 .site-top {
   position: relative;
   z-index: 2;
@@ -1262,9 +1378,11 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 15px;
 }
 
 .site-footer__block--img img {
+  width: 32px;
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
           flex-shrink: 0;
@@ -1275,23 +1393,9 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   white-space: nowrap;
 }
 
-.site-footer__block--social {
-  -webkit-order: 1;
-      -ms-flex-order: 1;
-          order: 1;
-}
-
-@media (max-width: 1024px) {
-  .site-footer__block--social {
-    -webkit-order: 2;
-        -ms-flex-order: 2;
-            order: 2;
-  }
-}
-
 .site-footer__block--social img {
   transition: all 0.3s ease;
-  margin: 0 3px;
+  margin: 0 1px;
 }
 
 .site-footer__block--social img:hover {
@@ -3509,6 +3613,7 @@ http://flickity.metafizzy.co
 
 .home-banner {
   transition: all 0.3s ease;
+  position: relative;
 }
 
 .home-banner:hover {
@@ -4017,10 +4122,22 @@ http://flickity.metafizzy.co
   padding-left: 10px;
 }
 
+@media (max-width: 580px) {
+  .filters__title {
+    display: block;
+  }
+}
+
 .filter {
   display: inline-block;
   position: relative;
   vertical-align: middle;
+}
+
+@media (max-width: 580px) {
+  .filter {
+    display: block;
+  }
 }
 
 .filter__name {
@@ -4283,7 +4400,7 @@ http://flickity.metafizzy.co
   border-radius: 0 0 3px 3px;
   border: 1px solid #e0e0e0;
   top: calc(100% - 2px);
-  left: 0;
+  right: 0;
   padding: 10px 10px 3px 10px;
   min-width: 100%;
   z-index: 10;
@@ -5145,12 +5262,12 @@ http://flickity.metafizzy.co
   }
 }
 
-.checkout-form textarea {
+.checkout-form__right textarea {
   height: 300px;
 }
 
 @media (max-width: 768px) {
-  .checkout-form textarea {
+  .checkout-form__right textarea {
     height: 150px;
   }
 }
@@ -5835,5 +5952,3 @@ http://flickity.metafizzy.co
   height: auto;
   margin-bottom: 50px;
 }
-
-/*# sourceMappingURL=main.css.map */

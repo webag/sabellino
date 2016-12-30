@@ -88,12 +88,12 @@
 		@include res(m){
 			padding-left: 0;
 		}
-	}
 
-	textarea{
-		height: 300px;
-		@include res(m){
-			height: 150px;
+		textarea{
+			height: 300px;
+			@include res(m){
+				height: 150px;
+			}
 		}
 	}
 
