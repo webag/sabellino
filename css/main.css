@@ -718,7 +718,7 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-      user-select: none;
+  user-select: none;
   -webkit-appearance: none;
   white-space: nowrap;
 }
@@ -842,25 +842,25 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   display: -ms-flexbox;
   display: flex;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding-right: 50px;
 }
 
 @media (max-width: 768px) {
   .alert-sec .container {
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-justify-content: flex-start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     -webkit-align-items: flex-start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     padding-right: 0;
   }
 }
@@ -924,14 +924,14 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .alert-sec .alert-close:before {
   -webkit-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .alert-sec .alert-close:after {
   -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .site-top {
@@ -951,8 +951,8 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   display: -ms-flexbox;
   display: flex;
   -webkit-justify-content: flex-start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   padding: 0;
 }
 
@@ -1010,8 +1010,8 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   min-width: 100%;
   transition: all 0.3s ease;
   -webkit-transform: translate(0, -10px);
-      -ms-transform: translate(0, -10px);
-          transform: translate(0, -10px);
+  -ms-transform: translate(0, -10px);
+  transform: translate(0, -10px);
 }
 
 .sub-menu li {
@@ -1065,8 +1065,8 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .has-sub:hover .has-sub__title i {
   -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 
 .has-sub:hover .sub-menu {
@@ -1074,8 +1074,8 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   pointer-events: all;
   z-index: 5;
   -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
 }
 
 .user-menu {
@@ -1145,11 +1145,11 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   display: -ms-flexbox;
   display: flex;
   -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 0 10px 0 0;
 }
 
@@ -1228,8 +1228,8 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .search-form__wrapper {
   -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .search-form {
@@ -1261,11 +1261,11 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .search-form button i {
@@ -1288,8 +1288,8 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .breadcrumbs a, .breadcrumbs span {
@@ -1327,26 +1327,26 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   display: -ms-flexbox;
   display: flex;
   -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 0;
 }
 
 @media (max-width: 1024px) {
   .site-footer .container {
     -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-justify-content: flex-start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 }
 
 .site-footer__block {
   -webkit-order: 1;
-      -ms-flex-order: 1;
-          order: 1;
+  -ms-flex-order: 1;
+  order: 1;
   font-size: 12px;
   line-height: 1.6;
   padding: 0 10px;
@@ -1376,16 +1376,16 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-bottom: 15px;
 }
 
 .site-footer__block--img img {
   width: 32px;
   -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   margin-right: 10px;
 }
 
@@ -1413,18 +1413,18 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   display: -ms-flexbox;
   display: flex;
   -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media (max-width: 580px) {
   .site-bottom .container {
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     text-align: center;
   }
 }
@@ -1466,9 +1466,9 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   cursor: pointer;
   transition: all 0.3s ease;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   display: none;
 }
 
@@ -1495,9 +1495,9 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   color: #5c2c4e;
   padding: 0 5px;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   transition: all 0.3s ease;
 }
 
@@ -1539,23 +1539,23 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .mobile-menu-panel .menu-btn.active figure {
   -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
   background-color: #FFF;
 }
 
 .mobile-menu-panel .menu-btn.active figure:after {
   -webkit-transform: scale(0.5);
-      -ms-transform: scale(0.5);
-          transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
   opacity: 0;
   background-color: #FFF;
 }
 
 .mobile-menu-panel .menu-btn.active figure:before {
   -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
   top: 0;
   background-color: #FFF;
 }
@@ -1569,8 +1569,8 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 0 10px;
   color: #FFF;
   transition: all 0.3s ease;
@@ -1657,11 +1657,11 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .mobile-search-form button i {
@@ -1686,8 +1686,8 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   top: inherit;
   display: none;
   -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
   transition: none;
 }
 
@@ -1701,8 +1701,8 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .mobile-menu .menu-top .has-sub__title.opened i {
   -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 
 .mobile-menu-separator {
@@ -1738,7 +1738,7 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   z-index: 3;
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 @media (max-width: 1024px) {
@@ -1762,11 +1762,11 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   display: -ms-flexbox;
   display: flex;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 250px;
   padding: 0 10px;
 }
@@ -1797,7 +1797,7 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   background-color: #fff;
   transition: all 0.1s ease;
   -webkit-transform: translate3d(0, -10px, 0);
-          transform: translate3d(0, -10px, 0);
+  transform: translate3d(0, -10px, 0);
   opacity: 0;
 }
 
@@ -1806,7 +1806,7 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
     position: relative;
     padding: 0 15px 15px 15px;
     -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
     opacity: 1;
     z-index: 3;
   }
@@ -1900,21 +1900,21 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-justify-content: flex-start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
 }
 
 @media (max-width: 1024px) {
   .ti-buy {
     -webkit-align-items: flex-start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 }
 
@@ -1951,11 +1951,11 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   vertical-align: middle;
   margin-right: 3px;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-weight: 600;
   transition: all 0.3s ease;
 }
@@ -2062,19 +2062,19 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-bottom: 35px;
 }
 
 @media (max-width: 768px) {
   .actions-section {
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-align-items: flex-start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 }
 
@@ -2084,11 +2084,11 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 768px) {
@@ -2101,11 +2101,11 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 @media (max-width: 580px) {
   .actions-section__right {
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-align-items: flex-start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 }
 
@@ -2219,19 +2219,19 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   display: -ms-flexbox;
   display: flex;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-bottom: 55px;
 }
 
 @media (max-width: 580px) {
   .tabs {
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     border-bottom: none;
   }
 }
@@ -2315,11 +2315,11 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   display: -ms-flexbox;
   display: flex;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-align-items: flex-start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   padding-left: 60px;
   padding-right: 60px;
 }
@@ -2350,8 +2350,8 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   margin: 50px auto;
   transition: all 0.4s ease;
   -webkit-transform-origin: center top;
-      -ms-transform-origin: center top;
-          transform-origin: center top;
+  -ms-transform-origin: center top;
+  transform-origin: center top;
   cursor: auto;
   display: none;
 }
@@ -2461,17 +2461,17 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .agmodal--slide {
   -webkit-transform: translate3d(0, -500px, 0);
-          transform: translate3d(0, -500px, 0);
+  transform: translate3d(0, -500px, 0);
 }
 
 .agmodal--scale {
   -webkit-transform: scale3d(0.9, 0.9, 1);
-          transform: scale3d(0.9, 0.9, 1);
+  transform: scale3d(0.9, 0.9, 1);
 }
 
 .agmodal--3d {
   -webkit-transform: perspective(1000px) rotateX(45deg);
-          transform: perspective(1000px) rotateX(45deg);
+  transform: perspective(1000px) rotateX(45deg);
 }
 
 .agmodal--morph {
@@ -2479,12 +2479,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   transition: transform 0.4s cubic-bezier(0.7, 0, 0.3, 1), opacity 0.4s ease, width 0.4s ease;
   transition: transform 0.4s cubic-bezier(0.7, 0, 0.3, 1), opacity 0.4s ease, width 0.4s ease, -webkit-transform 0.4s cubic-bezier(0.7, 0, 0.3, 1);
   -webkit-transform: translate3d(-400px, 0, 0) scale3d(1.4, 0.5, 1);
-          transform: translate3d(-400px, 0, 0) scale3d(1.4, 0.5, 1);
+  transform: translate3d(-400px, 0, 0) scale3d(1.4, 0.5, 1);
 }
 
 .agmodal--visible {
   -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
-          transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
   opacity: 1;
 }
 
@@ -2520,6 +2520,8 @@ html.agmodal--lock body {
   cursor: pointer;
   overflow: auto;
   overflow-y: scroll;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   pointer-events: none;
   opacity: 0;
@@ -2539,6 +2541,8 @@ html.agmodal--lock body {
 }
 
 .agmodal__wrapper * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -2569,14 +2573,14 @@ html.agmodal--lock body {
 
 .agmodal__close:before {
   -webkit-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .agmodal__close:after {
   -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .agmodal__video-preloader {
@@ -2584,8 +2588,8 @@ html.agmodal--lock body {
   width: 100%;
   top: 50%;
   -webkit-transform: translate(0, -50%);
-      -ms-transform: translate(0, -50%);
-          transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
   text-align: center;
   z-index: 10;
   font-size: 64px;
@@ -2628,6 +2632,8 @@ html.agmodal--lock body {
 }
 
 .fancybox-opened .fancybox-skin {
+  -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
 
@@ -2680,6 +2686,8 @@ html.agmodal--lock body {
   border-radius: 50%;
   border: 3px solid #666;
   -webkit-animation: fanload 2s infinite linear;
+  -moz-animation: fanload 2s infinite linear;
+  -o-animation: fanload 2s infinite linear;
   animation: fanload 2s infinite linear;
 }
 
@@ -2689,7 +2697,20 @@ html.agmodal--lock body {
   }
   50% {
     -webkit-transform: scale(0.8);
-            transform: scale(0.8);
+    transform: scale(0.8);
+    border-color: white;
+  }
+  100% {
+    border-color: #666;
+  }
+}
+
+@-moz-keyframes fanload {
+  0% {
+    border-color: #666;
+  }
+  50% {
+    transform: scale(0.8);
     border-color: white;
   }
   100% {
@@ -2703,7 +2724,7 @@ html.agmodal--lock body {
   }
   50% {
     -webkit-transform: scale(0.8);
-            transform: scale(0.8);
+    transform: scale(0.8);
     border-color: white;
   }
   100% {
@@ -2738,14 +2759,14 @@ html.agmodal--lock body {
 
 .fancybox-close:before {
   -webkit-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .fancybox-close:after {
   -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .fancybox-nav {
@@ -2784,8 +2805,8 @@ html.agmodal--lock body {
   box-sizing: border-box;
   left: 10px;
   -webkit-transform: translate(-20px, 0);
-      -ms-transform: translate(-20px, 0);
-          transform: translate(-20px, 0);
+  -ms-transform: translate(-20px, 0);
+  transform: translate(-20px, 0);
 }
 
 .fancybox-prev span:before, .fancybox-prev span:after {
@@ -2800,15 +2821,15 @@ html.agmodal--lock body {
 .fancybox-prev span:before {
   top: 0%;
   -webkit-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .fancybox-prev span:after {
   top: 100%;
   -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .fancybox-next span {
@@ -2816,8 +2837,8 @@ html.agmodal--lock body {
   box-sizing: border-box;
   right: 10px;
   -webkit-transform: translate(20px, 0);
-      -ms-transform: translate(20px, 0);
-          transform: translate(20px, 0);
+  -ms-transform: translate(20px, 0);
+  transform: translate(20px, 0);
 }
 
 .fancybox-next span:before, .fancybox-next span:after {
@@ -2832,22 +2853,22 @@ html.agmodal--lock body {
 .fancybox-next span:before {
   top: 0%;
   -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .fancybox-next span:after {
   top: 100%;
   -webkit-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .fancybox-nav:hover span {
   opacity: 1;
   -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
 }
 
 .fancybox-tmp {
@@ -2925,6 +2946,8 @@ html.agmodal--lock body {
   background: transparent;
   /* Fallback for web browsers that doesn't support RGBa */
   background: rgba(0, 0, 0, 0.8);
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
   border-radius: 15px;
   text-shadow: 0 1px 2px #222;
   color: #FFF;
@@ -3010,7 +3033,7 @@ http://flickity.metafizzy.co
   /* vertically center */
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
+  transform: translateY(-50%);
   transition: all 0.3s ease;
 }
 
@@ -3105,6 +3128,7 @@ http://flickity.metafizzy.co
   display: block;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
+  -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
@@ -3424,15 +3448,15 @@ http://flickity.metafizzy.co
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 }
 
 @media (max-width: 580px) {
   .home-slide {
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -3450,11 +3474,11 @@ http://flickity.metafizzy.co
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 @media (max-width: 580px) {
@@ -3549,19 +3573,19 @@ http://flickity.metafizzy.co
   display: -ms-flexbox;
   display: flex;
   -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-align-items: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   padding: 30px 0;
 }
 
 @media (max-width: 768px) {
   .home-banners {
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -3571,11 +3595,11 @@ http://flickity.metafizzy.co
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding-right: 20px;
 }
 
@@ -3730,11 +3754,11 @@ http://flickity.metafizzy.co
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-align: center;
   color: #FFF;
   padding: 0 20px;
@@ -3790,11 +3814,11 @@ http://flickity.metafizzy.co
   display: -ms-flexbox;
   display: flex;
   -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-align-items: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   margin-left: -10px;
   margin-right: -10px;
 }
@@ -3802,8 +3826,8 @@ http://flickity.metafizzy.co
 @media (max-width: 768px) {
   .home-sbanners .row {
     -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }
 
@@ -3895,8 +3919,8 @@ http://flickity.metafizzy.co
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: flex-end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   margin-bottom: 15px;
 }
 
@@ -3913,16 +3937,16 @@ http://flickity.metafizzy.co
 @media (max-width: 768px) {
   .catalog-wrapper {
     -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }
 
 .catalog-aside {
   width: 290px;
   -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 @media (max-width: 1024px) {
@@ -4049,8 +4073,8 @@ http://flickity.metafizzy.co
 
 .cats-menu__has-sub.opened > i {
   -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 
 .cats-menu__has-sub.opened > .cats-menu__sub {
@@ -4096,15 +4120,15 @@ http://flickity.metafizzy.co
 @media (max-width: 1024px) {
   .catalog-filter header {
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
 .filters {
   -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 @media (max-width: 1024px) {
@@ -4181,8 +4205,8 @@ http://flickity.metafizzy.co
 
 .filter:hover .filter__name:after {
   -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 
 .filter:hover .filter__name span {
@@ -4280,36 +4304,36 @@ http://flickity.metafizzy.co
   display: -ms-flexbox;
   display: flex;
   -webkit-justify-content: flex-end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   width: 100%;
   -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 1400px) {
   .sorters {
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-align-items: flex-end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
   }
 }
 
 @media (max-width: 1024px) {
   .sorters {
     -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-align-items: flex-start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     -webkit-justify-content: flex-start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 }
 
@@ -4377,8 +4401,8 @@ http://flickity.metafizzy.co
 
 .sorter:hover .sorter__name:after {
   -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 
 .sorter:hover .sorter__name span {
@@ -4489,14 +4513,14 @@ http://flickity.metafizzy.co
 
 .f-delete:before {
   -webkit-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .f-delete:after {
   -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .novinki-section {
@@ -4510,25 +4534,25 @@ http://flickity.metafizzy.co
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: flex-end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   margin-bottom: 10px;
   -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 768px) {
   .novinki-section__header {
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-align-items: flex-start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     -webkit-justify-content: flex-start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 }
 
@@ -4651,11 +4675,11 @@ http://flickity.metafizzy.co
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .tovar-info__price {
@@ -4738,11 +4762,11 @@ http://flickity.metafizzy.co
   display: -ms-flexbox;
   display: flex;
   -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .tovar-info__footer p {
@@ -4752,8 +4776,8 @@ http://flickity.metafizzy.co
 
 .tovar-info__socials {
   -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   padding-left: 10px;
 }
 
@@ -4765,7 +4789,7 @@ http://flickity.metafizzy.co
 .tovar-info__socials a:hover {
   opacity: 0.5;
   -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .tovar-info__msgme {
@@ -4896,15 +4920,15 @@ http://flickity.metafizzy.co
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: flex-start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 @media (max-width: 580px) {
   .cid-wrap {
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -5008,14 +5032,14 @@ http://flickity.metafizzy.co
 
 .ci-delete:before {
   -webkit-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .ci-delete:after {
   -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .ci-delete:hover {
@@ -5044,11 +5068,11 @@ http://flickity.metafizzy.co
   display: -ms-flexbox;
   display: flex;
   -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-align-items: flex-start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   margin-bottom: 30px;
   padding-bottom: 30px;
   border-bottom: 1px solid #c6c6c6;
@@ -5057,8 +5081,8 @@ http://flickity.metafizzy.co
 @media (max-width: 768px) {
   .cart-footer {
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -5082,8 +5106,8 @@ http://flickity.metafizzy.co
 @media (max-width: 580px) {
   .coupon-block {
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -5160,7 +5184,7 @@ http://flickity.metafizzy.co
 .method-sec [type="radio"]:checked + label {
   opacity: 1;
   -webkit-filter: grayscale(0%);
-          filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 .method {
@@ -5175,14 +5199,14 @@ http://flickity.metafizzy.co
   transition: all 0.3s ease;
   opacity: 0.5;
   -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 @media (max-width: 580px) {
   .method {
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     font-size: 12px;
   }
 }
@@ -5190,7 +5214,7 @@ http://flickity.metafizzy.co
 .method:hover {
   opacity: 1;
   -webkit-filter: grayscale(0%);
-          filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 .method figure {
@@ -5198,19 +5222,19 @@ http://flickity.metafizzy.co
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   width: 62px;
   height: 62px;
   border-radius: 50%;
   overflow: hidden;
   border: 2px solid #5c2c4e;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-right: 40px;
 }
 
@@ -5313,16 +5337,16 @@ http://flickity.metafizzy.co
   display: -ms-flexbox;
   display: flex;
   -webkit-justify-content: flex-start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-align-items: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   margin-left: -10px;
   margin-right: -10px;
   -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .blog-item {
@@ -5538,15 +5562,15 @@ http://flickity.metafizzy.co
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media (max-width: 580px) {
   .cart-lk-header {
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -5638,14 +5662,14 @@ http://flickity.metafizzy.co
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .c-block img {
   -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   margin: 0 10px 0 0;
 }
 
@@ -5760,14 +5784,14 @@ http://flickity.metafizzy.co
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-justify-content: space-around;
-      -ms-flex-pack: distribute;
-          justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
   -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .about-partners__list img {
@@ -5968,18 +5992,18 @@ http://flickity.metafizzy.co
   display: -ms-flexbox;
   display: flex;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media (max-width: 580px) {
   .s-404 .container {
     -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }
 
@@ -5992,8 +6016,8 @@ http://flickity.metafizzy.co
   padding-right: 40px;
   margin-right: 40px;
   -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 @media (max-width: 1024px) {
