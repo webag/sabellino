@@ -843,22 +843,9 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   text-align: center;
 }
 
-.alert-sec h4, .alert-sec .contacts__title {
-  margin-right: 50px;
-}
-
-@media (max-width: 1024px) {
-  .alert-sec h4, .alert-sec .contacts__title {
+@media (max-width: 580px) {
+  .alert-sec .btn {
     font-size: 14px;
-    margin-right: 20px;
-  }
-}
-
-@media (max-width: 768px) {
-  .alert-sec h4, .alert-sec .contacts__title {
-    font-size: 12px;
-    margin-bottom: 10px;
-    margin-right: 10px;
   }
 }
 

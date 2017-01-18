@@ -16,16 +16,9 @@
 		text-align: center;
 	}
 
-	h4{
-		margin-right: 50px;
-		@include res(l){
+	.btn{
+		@include res(s){
 			font-size: 14px;
-			margin-right: 20px;
-		}
-		@include res(m){
-			font-size: 12px;
-			margin-bottom: 10px;
-			margin-right: 10px;
 		}
 	}
 
