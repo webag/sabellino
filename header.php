@@ -24,8 +24,7 @@
 
 <div class="alert-sec">
 	<div class="container">
-		<h4>На сайте указаны розничные цены. Получите доступ к оптовым ценам.</h4>
-		<a href="#" class="btn btn--white">Получить</a>
+		<a href="#" class="btn btn--white">Я хочу купить оптом</a>
 	</div>
 	<a href="#" class="alert-close"></a>
 </div>

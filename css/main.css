@@ -819,10 +819,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 }
 
 .alert-sec {
-  background-color: #5c2c4e;
-  padding: 5px 0;
+  background-color: #006633;
+  padding: 6px 0;
   color: #FFF;
   position: relative;
+  -webkit-animation: alert_panel 2s infinite alternate;
+  animation: alert_panel 2s infinite alternate;
 }
 
 @media (max-width: 1024px) {
@@ -838,31 +840,7 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 }
 
 .alert-sec .container {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-right: 50px;
-}
-
-@media (max-width: 768px) {
-  .alert-sec .container {
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    padding-right: 0;
-  }
+  text-align: center;
 }
 
 .alert-sec h4, .alert-sec .contacts__title {
@@ -932,6 +910,33 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+@-webkit-keyframes alert_panel {
+  from {
+    background-color: #006633;
+  }
+  to {
+    background-color: #00984c;
+  }
+}
+
+@-moz-keyframes alert_panel {
+  from {
+    background-color: #006633;
+  }
+  to {
+    background-color: #00984c;
+  }
+}
+
+@keyframes alert_panel {
+  from {
+    background-color: #006633;
+  }
+  to {
+    background-color: #00984c;
+  }
 }
 
 .site-top {

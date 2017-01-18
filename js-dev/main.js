@@ -28,7 +28,7 @@ $(document).ready(function(){
 			$.ajax({
 				type: "POST",
 				async: true,
-				url: "/send.php",
+				url: "/bitrix/templates/sabellino/php/send.php",
 				cache: false,
 				contentType: false,
 				processData: false,
@@ -119,8 +119,8 @@ $(document).ready(function(){
 		hide_min_max: true,
 		postfix: ' р.',
 		onChange: function (data) { // data - массив со всеми значениями слайдера цены.
-			$('[name="price_from"]').val(data.from);
-			$('[name="price_to"]').val(data.to);
+			$('.price_from').val(data.from);
+			$('.price_to').val(data.to);
 		}
 	});
 });

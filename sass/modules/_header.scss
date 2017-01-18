@@ -1,9 +1,10 @@
 //alert
 .alert-sec{
-	background-color: $baklazan;
-	padding: 5px 0;
+	background-color: #006633;
+	padding: 6px 0;
 	color: #FFF;
 	position: relative;
+	animation: alert_panel 2s infinite alternate;
 	@include res(l){
 		margin-top: 35px;
 	}
@@ -12,16 +13,7 @@
 	}
 
 	.container{
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		padding-right: 50px;
-		@include res(m){
-			flex-direction: column;
-			justify-content: flex-start;
-			align-items: flex-start;
-			padding-right: 0;
-		}
+		text-align: center;
 	}
 
 	h4{
@@ -78,6 +70,15 @@
 		&:after{
 			transform: rotate(45deg);
 		}
+	}
+}
+
+@include keyframes(alert_panel){
+	from{
+		background-color: #006633;
+	}
+	to{
+		background-color: #00984c;
 	}
 }
 //alert
