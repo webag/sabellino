@@ -3876,6 +3876,10 @@ http://flickity.metafizzy.co
   padding: 40px 0;
 }
 
+.home-pop h1, .home-pop .home-slide__title, .home-pop .home-banner__imgtitle p, .home-banner__imgtitle .home-pop p {
+  text-align: center;
+}
+
 .home-pop__title {
   text-align: center;
   margin-bottom: 50px;
