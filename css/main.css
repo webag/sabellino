@@ -4737,6 +4737,64 @@ http://flickity.metafizzy.co
   margin-bottom: 15px;
 }
 
+.tovar-info__video {
+  margin-bottom: 15px;
+}
+
+.tovar-info__video .fancy-video {
+  display: block;
+  position: relative;
+}
+
+.tovar-info__video .fancy-video:before {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(92, 44, 78, 0.5);
+  transition: all 0.3s ease;
+}
+
+.tovar-info__video .fancy-video__thumb {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.tovar-info__video .fancy-video i {
+  border: 2px solid #FFF;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 56px;
+  color: #FFF;
+  font-size: 20px;
+  text-indent: 3px;
+  transition: all 0.3s ease;
+}
+
+.tovar-info__video .fancy-video:hover:before {
+  background-color: rgba(92, 44, 78, 0.7);
+}
+
+.tovar-info__video .fancy-video:hover i {
+  color: #dd2d7a;
+  border-color: #dd2d7a;
+}
+
 .tovar-info__properties {
   margin-bottom: 15px;
   font-size: 12px;

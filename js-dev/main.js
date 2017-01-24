@@ -61,6 +61,16 @@ $(document).ready(function(){
 	$('.fancy').fancybox({
 		padding: 0
 	});
+	$('.fancy-video').fancybox({
+		padding: 0,
+		width: 1600,
+		height: 900,
+		aspectRatio: true,
+		scrolling: 'no',
+		helpers:  {
+			title:  null
+		}
+	});
 });
 
 

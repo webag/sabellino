@@ -152,6 +152,65 @@
 		margin-bottom: 15px;
 	}
 
+	&__video{
+		margin-bottom: 15px;
+
+		.fancy-video{
+			display: block;
+			position: relative;
+
+			&:before{
+				content: '';
+				position: absolute;
+				z-index: 2;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				background-color: transparentize($baklazan,0.5);
+				transition: all 0.3s ease;
+			}
+
+			&__thumb{
+				display: block;
+				position: relative;
+				width: 100%;
+				height: auto;
+				z-index: 1;
+			}
+
+			i{
+				border: 2px solid #FFF;
+				border-radius: 50%;
+				position: absolute;
+				z-index: 3;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				margin: auto;
+				width: 60px;
+				height: 60px;
+				text-align: center;
+				line-height: 56px;
+				color: #FFF;
+				font-size: 20px;
+				text-indent: 3px;
+				transition: all 0.3s ease;
+			}
+
+			&:hover{
+				&:before{
+					background-color: transparentize($baklazan,0.3);
+				}
+				i{
+					color: $pink;
+					border-color: $pink;
+				}
+			}
+		}
+	}
+
 	&__properties{
 		margin-bottom: 15px;
 		font-size: 12px;
