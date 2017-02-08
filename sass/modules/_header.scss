@@ -92,12 +92,38 @@
 	}
 }
 
-.site-top-tel{
+.site-top-call{
 	margin-left: auto;
-	margin-right: 50px;
+	line-height: 45px;
+	margin-right: 20px;
+	white-space: nowrap;
+	font-size: 14px;
+	@include res(xl){
+		font-size: 12px;
+		margin-right: 10px;
+	}
+
+	span{
+		@extend %link--baklazan-dotted;
+	}
+
+	&:hover{
+		span{
+			color: $pink;
+			border-bottom: 1px dotted $pink;
+		}
+	}
+}
+
+.site-top-tel{
+	margin-right: 20px;
 	line-height: 45px;
 	font-size: 20px;
 	white-space: nowrap;
+	@include res(xl){
+		font-size: 18px;
+		margin-right: 5px;
+	}
 }
 //site-top
 

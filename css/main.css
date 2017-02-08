@@ -22,13 +22,13 @@
   border-bottom: 1px solid #dd2d7a;
 }
 
-.ti-buy__oneclick, .ti-buy__alertme, .tovar-info__msgme a {
+.site-top-call span, .ti-buy__oneclick, .ti-buy__alertme, .tovar-info__msgme a {
   color: #5c2c4e;
   transition: all 0.3s ease;
   border-bottom: 1px dotted #5c2c4e;
 }
 
-.ti-buy__oneclick:hover, .ti-buy__alertme:hover, .tovar-info__msgme a:hover {
+.site-top-call span:hover, .ti-buy__oneclick:hover, .ti-buy__alertme:hover, .tovar-info__msgme a:hover {
   color: #dd2d7a;
   border-bottom: 1px dotted #dd2d7a;
 }
@@ -948,12 +948,38 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   padding: 0;
 }
 
-.site-top-tel {
+.site-top-call {
   margin-left: auto;
-  margin-right: 50px;
+  line-height: 45px;
+  margin-right: 20px;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+@media (max-width: 1400px) {
+  .site-top-call {
+    font-size: 12px;
+    margin-right: 10px;
+  }
+}
+
+.site-top-call:hover span {
+  color: #dd2d7a;
+  border-bottom: 1px dotted #dd2d7a;
+}
+
+.site-top-tel {
+  margin-right: 20px;
   line-height: 45px;
   font-size: 20px;
   white-space: nowrap;
+}
+
+@media (max-width: 1400px) {
+  .site-top-tel {
+    font-size: 18px;
+    margin-right: 5px;
+  }
 }
 
 .menu-top {

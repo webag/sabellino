@@ -169,10 +169,14 @@
 			<li><a href="/contacts.php">Контакты</a></li>
 		</ul>
 
+		<a href='#' onclick='window.open("http://fb.s7.octoline.ru/widgets/callme_new.php?service_instance_id=3115", "CallMe", "width=320, height=350, resizable=no, toolbar=0, status=0, location=0, directories=0, menubar=0, scrollbars=0"); return false;' target='_blank' class="site-top-call">
+			<span>Позвонить нам бесплатно</span>
+		</a>
+
 		<a href="tel:8(800)922-06-90" class="site-top-tel">8 (800) 922-06-90</a>
 
 		<nav class="user-menu">
-			<a href="/lk-info.php"><span>Личный кабинет</span></a>
+<!--			<a href="/lk-info.php"><span>Личный кабинет</span></a>-->
 			<a href="/login.php"><span>Вход</span></a>
 			<a href="" data-ag="choose-registr"><span class="um-dotted">Регистрация</span></a>
 		</nav>
