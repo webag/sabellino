@@ -102,6 +102,47 @@
 		</main>
 	</div>
 
+	<div id="modal-cart" class="agmodal modal-cart">
+		<header>
+			<h4>Товар добавлен в&nbsp;корзину</h4>
+			<p>Всего в вашей корзине 1 товар. <a href="#">Посмотреть</a></p>
+		</header>
+		<main>
+			<div class="modal-cart-item">
+				<div class="modal-cart-item__img">
+					<a href="#"><img src="/images/thumbs/cart1.jpg" alt="100xXXXX"></a>
+				</div>
+				<div class="modal-cart-item__info">
+					<h5><a href="#">Сумка Нежная коллекция</a></h5>
+					<span class="modal-cart-item__param">Размер: M</span>
+					<span class="modal-cart-item__param">Цвет: красный</span>
+				</div>
+				<div class="modal-cart-item__right">
+					<span class="modal-cart-item__price">15 000</span>
+					<span class="modal-cart-item__num">кол-во: 1</span>
+				</div>
+			</div>
+			<div class="modal-cart-item">
+				<div class="modal-cart-item__img">
+					<a href="#"><img src="/images/thumbs/cart2.jpg" alt="100xXXXX"></a>
+				</div>
+				<div class="modal-cart-item__info">
+					<h5><a href="#">Сумка Нежная коллекция Сумка Нежная коллекция</a></h5>
+					<span class="modal-cart-item__param">Размер: M</span>
+					<span class="modal-cart-item__param">Цвет: красный</span>
+				</div>
+				<div class="modal-cart-item__right">
+					<span class="modal-cart-item__price">15 000</span>
+					<span class="modal-cart-item__num">кол-во: 1</span>
+				</div>
+			</div>
+		</main>
+		<div class="modal-cart__actions">
+			<a href="#" class="btn btn--baklazan modal-close">Продолжить покупки</a>
+			<a href="#" class="btn btn--blue">Оформить заказ</a>
+		</div>
+	</div>
+
 </div>
 <!-- Модальные окна -->
 

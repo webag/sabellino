@@ -2,6 +2,12 @@
 @import 'helpers/mixins';
 @import 'helpers/placeholders';
 
+@import 'vendors/agmodal';
+@import 'vendors/fancybox';
+@import 'vendors/flickity';
+@import 'vendors/ion';
+@import 'vendors/ionskin';
+
 @import 'modules/reset';
 @import 'modules/icons';
 @import 'modules/typography';
@@ -19,12 +25,7 @@
 @import 'modules/page-title';
 @import 'modules/tabs';
 @import 'modules/imgslider';
-
-@import 'vendors/agmodal';
-@import 'vendors/fancybox';
-@import 'vendors/flickity';
-@import 'vendors/ion';
-@import 'vendors/ionskin';
+@import 'modules/modals';
 
 @import 'pages/home';
 @import 'pages/catalog';

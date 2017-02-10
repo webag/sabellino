@@ -54,6 +54,11 @@ $(document).ready(function(){
 		effect: 'fade',
 		overlayColor: 'rgba(50, 50, 50, 0.6)'
 	});
+	$('.modal-close').on('click',function (e) {
+		e.preventDefault();
+		$(this).parents('.agmodal').agmodal('close');
+		return false;
+	})
 });
 
 
