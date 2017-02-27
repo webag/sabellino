@@ -170,7 +170,7 @@
 		</ul>
 
 		<a href='#' onclick='window.open("http://fb.s7.octoline.ru/widgets/callme_new.php?service_instance_id=3115", "CallMe", "width=320, height=350, resizable=no, toolbar=0, status=0, location=0, directories=0, menubar=0, scrollbars=0"); return false;' target='_blank' class="site-top-call">
-			<span>Позвонить нам бесплатно</span>
+			<span>Заказать звонок</span>
 		</a>
 
 		<a href="tel:8(800)922-06-90" class="site-top-tel">8 (800) 922-06-90</a>
