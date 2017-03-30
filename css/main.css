@@ -5044,6 +5044,15 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   margin-bottom: 25px;
 }
 
+.sharing_align {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.sharing_tom_margin {
+  margin-top: 30px;
+}
+
 .cart {
   padding: 0 0 40px 0;
   display: table;
