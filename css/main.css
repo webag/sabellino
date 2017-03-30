@@ -5053,6 +5053,37 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   margin-top: 30px;
 }
 
+.sabellino-triggers {
+  margin-top: 30px;
+}
+
+.sabellino-triggers h5, .sabellino-triggers .page-title__sub, .sabellino-triggers .project__title, .sabellino-triggers .contacts__subtitle {
+  margin-bottom: 0.7em;
+}
+
+.sab-trigger {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.sab-trigger img {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 59px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.sab-trigger strong {
+  display: block;
+}
+
 .cart {
   padding: 0 0 40px 0;
   display: table;

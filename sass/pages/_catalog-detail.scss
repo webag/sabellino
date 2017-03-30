@@ -281,3 +281,30 @@
 .sharing_tom_margin {
 	margin-top:30px;
 }
+
+//sabellino-triggers
+.sabellino-triggers{
+	margin-top: 30px;
+
+	h5{
+		margin-bottom: 0.7em;
+	}
+}
+
+.sab-trigger{
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+
+	img{
+		flex-shrink: 0;
+		width: 59px;
+		height: auto;
+		margin-right: 10px;
+	}
+
+	strong{
+		display: block;
+	}
+}
+//sabellino-triggers
