@@ -6650,3 +6650,125 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 .s-404__right a {
   font-weight: bold;
 }
+
+.s-team .container {
+  border-top: 1px solid #c6c6c6;
+  padding-top: 70px;
+  max-width: 860px;
+}
+
+@media (max-width: 580px) {
+  .s-team .container {
+    padding-top: 40px;
+  }
+}
+
+.gendir {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 580px) {
+  .gendir {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+
+.gendir img {
+  border-radius: 50%;
+}
+
+.gendir__content {
+  max-width: 340px;
+  padding-left: 30px;
+}
+
+@media (max-width: 580px) {
+  .gendir__content {
+    padding-left: 0;
+    padding-top: 10px;
+  }
+}
+
+.gendir__slogan {
+  color: #5c2c4e;
+  font-style: italic;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+@media (max-width: 580px) {
+  .gendir__slogan {
+    font-size: 16px;
+  }
+}
+
+.gendir__descr {
+  color: #666666;
+  font-size: 15px;
+}
+
+.gendir__descr small {
+  display: block;
+  font-size: 12px;
+}
+
+.team-hero {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 80px;
+  padding: 0 15px;
+  color: #3c3c3b;
+}
+
+@media (max-width: 1024px) {
+  .team-hero {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 580px) {
+  .team-hero {
+    margin-bottom: 50px;
+  }
+}
+
+.team-hero__photo {
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.team-hero__name {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.team-hero__hwo {
+  display: block;
+  margin-bottom: 3px;
+}
+
+.team-hero__phone img {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  top: 2px;
+}

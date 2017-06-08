@@ -1,0 +1,96 @@
+.s-team{
+
+	.container{
+		border-top: 1px solid $grey-light;
+		padding-top: 70px;
+		max-width: 860px;
+		@include res(s){
+			padding-top: 40px;
+		}
+	}
+}
+
+.gendir{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 80px;
+	@include res(s){
+		flex-direction: column;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+
+	img{
+		border-radius: 50%;
+	}
+
+	&__content{
+		max-width: 340px;
+		padding-left: 30px;
+		@include res(s){
+			padding-left: 0;
+			padding-top: 10px;
+		}
+	}
+
+	&__slogan{
+		color: $baklazan;
+		font-style: italic;
+		font-size: 18px;
+		display: block;
+		margin-bottom: 0.5em;
+		@include res(s){
+			font-size: 16px;
+		}
+	}
+
+	&__descr{
+		color: $grey;
+		font-size: 15px;
+
+		small{
+			display: block;
+			font-size: 12px;
+		}
+	}
+}
+
+
+.team-hero{
+	text-align: center;
+	font-size: 15px;
+	margin-bottom: 80px;
+	padding: 0 15px;
+	color: #3c3c3b;
+	@include res(l){
+		font-size: 14px;
+	}
+	@include res(s){
+		margin-bottom: 50px;
+	}
+
+	&__photo{
+		margin-bottom: 10px;
+		border-radius: 50%;
+	}
+
+	&__name{
+		display: block;
+		margin-bottom: 5px;
+	}
+
+	&__hwo{
+		display: block;
+		margin-bottom: 3px;
+	}
+
+	&__phone{
+		img{
+			width: 14px;
+			height: 14px;
+			position: relative;
+			top: 2px;
+		}
+	}
+}
