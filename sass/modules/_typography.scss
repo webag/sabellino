@@ -106,6 +106,7 @@ h5{
 	ol{
 		list-style: none;
 		counter-reset: ol;
+		padding-left: 20px;
 
 		li{
 			counter-increment: ol;
