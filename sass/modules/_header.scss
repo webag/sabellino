@@ -304,6 +304,9 @@
 		@include res(l){
 			padding-bottom: 10px;
 		}
+		@include res(s){
+			padding: 15px 10px 0 10px;
+		}
 	}
 
 	&__bottom{
@@ -378,6 +381,9 @@
 	max-width: 100%;
 	@include res(l){
 		width: 200px;
+	}
+	@include res(s){
+		width: 110px;
 	}
 }
 //site-header

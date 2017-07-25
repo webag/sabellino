@@ -119,3 +119,43 @@
 		}
 	}
 }
+
+
+.modal-cart-order{
+	padding: 20px 35px;
+	background: #e0c6d9;
+	@include res(s){
+		padding: 20px;
+	}
+
+	&__title{
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 1.2;
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 0.5em;
+	}
+
+	&__row{
+		display: flex;
+		align-items: stretch;
+		justify-content: space-between;
+		@include res(s){
+			flex-direction: column;
+		}
+
+		input{
+			flex-shrink: 1;
+		}
+
+		button{
+			flex-shrink: 0;
+			margin-left: 10px;
+			@include res(s){
+				margin-left: 0;
+				margin-top: 10px;
+			}
+		}
+	}
+}

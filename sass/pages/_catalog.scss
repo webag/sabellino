@@ -144,6 +144,27 @@
 //catalog-list
 .catalog-list{
 	padding: 40px 0 0 0;
+	display: flex;
+	flex-wrap: wrap;
+
+	.grid-4,.grid-3{
+		margin-right: 0;
+		@include res(l){
+			box-shadow: 0 0 0 1px #e4e4e4;
+		}
+	}
+}
+
+.product-list{
+	display: flex;
+	flex-wrap: wrap;
+
+	.grid-4,.grid-3{
+		margin-right: 0;
+		@include res(l){
+			box-shadow: 0 0 0 1px #e4e4e4;
+		}
+	}
 }
 //catalog-list
 

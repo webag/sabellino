@@ -7,6 +7,7 @@
 	margin-bottom: 40px;
 	transition: all 0.1s ease;
 
+
 	&:hover{
 		border-color: $baklazan;
 		box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
@@ -32,10 +33,12 @@
 	@include res(l){
 		border: none;
 		box-shadow: none;
+		margin-bottom: 10px;
 
 		&:hover{
 			border: none;
 			box-shadow: none;
+			z-index: 0;
 
 			footer{
 				display: block;
@@ -51,6 +54,10 @@
 		align-items: center;
 		height: 250px;
 		padding: 0 10px;
+		@include res(s){
+			height: auto;
+			margin-bottom: 10px;
+		}
 
 		img{
 			max-width: 100%;
@@ -84,6 +91,9 @@
 			transform: translate3d(0,0,0);
 			opacity: 1;
 			z-index: 3;
+			left: 0;
+			width: 100%;
+			background: transparent;
 		}
 	}
 
@@ -196,6 +206,10 @@
 	.btn{
 		@include res(l){
 			padding: 8px 25px;
+		}
+		@include res(s){
+			font-size: 14px;
+			padding: 7px 15px;
 		}
 	}
 

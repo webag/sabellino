@@ -27,8 +27,14 @@
 	opacity: 0.5;
 	filter: grayscale(100%);
 	@include res(s){
+		display: inline-flex;
+		vertical-align: top;
+		width: 50%;
+		margin-right: -4px;
 		flex-direction: column;
 		font-size: 12px;
+		padding-right: 10px;
+		margin-bottom: 20px;
 	}
 
 	&:hover{
@@ -67,6 +73,17 @@
 	&__name{
 		margin-bottom: 5px !important;
 		color: $baklazan;
+		@include res(s){
+			font-size: 12px;
+		}
+	}
+
+	.user-content{
+		p{
+			@include res(s){
+				display: none;
+			}
+		}
 	}
 }
 
