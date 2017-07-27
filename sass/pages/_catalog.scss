@@ -16,6 +16,63 @@
 		width: 100%;
 		border-bottom: 1px solid $grey-light;
 		margin-bottom: 20px;
+		display: none;
+	}
+}
+
+.mob-cat-btn{
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	display: none;
+	@include res(m){
+		display: inline-block;
+	}
+
+	.i-down{
+		position: relative;
+		top: -1px;
+		font-size: 8px;
+		margin-left: 10px;
+		display: inline-block;
+		vertical-align: middle;
+		transition: transform 0.3s ease;
+		transform-origin: center 45%;
+	}
+
+	&.opened{
+		.i-down{
+			transform: rotate(180deg);
+		}
+	}
+}
+
+
+.mob-filtr-btn{
+	margin-top: 25px;
+	text-transform: uppercase;
+	background: $orange;
+	font-size: 16px;
+	font-weight: bold;
+	display: none;
+	color: #FFF;
+	align-items: center;
+	justify-content: center;
+	@include res(m){
+		display: inline-flex;
+	}
+
+	img{
+		width: 18px;
+		height: 18px;
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 8px;
+	}
+
+	&__wrap{
+		text-align: right;
 	}
 }
 
@@ -72,6 +129,9 @@
 		@include res(l){
 			font-size: 12px;
 		}
+		@include res(m){
+			font-size: 14px;
+		}
 		
 		&.active{
 			a{
@@ -92,6 +152,9 @@
 
 	&__has-sub{
 		position: relative;
+		@include res(m){
+			padding-left: 32px !important;
+		}
 
 		i{
 			position: absolute;
@@ -109,6 +172,17 @@
 			@include res(l){
 				top: -4px;
 			}
+			@include res(m){
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+				font-size: 8px;
+				width: 30px;
+				height: 30px;
+				top: -5px;
+				left: -5px;
+				background: lighten($grey-light,14%);
+			}
 			
 			&:hover{
 				background-color: lighten($grey-light,10%);
@@ -121,7 +195,7 @@
 
 		&.opened{
 			&>i{
-				transform: rotate(-90deg);
+				transform: rotate(-180deg);
 			}
 			&>.cats-menu__sub{
 				display: block;
@@ -187,6 +261,9 @@
 	margin-top: 15px;
 	border-top: 1px solid $grey-light;
 	padding: 10px 0;
+	@include res(m){
+		display: none;
+	}
 
 	header{
 		display: flex;

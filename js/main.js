@@ -238,3 +238,18 @@ $(document).ready(function(){
 	})
 });
 // alert-block
+
+
+// mob-catalog-btn
+$(document).ready(function() {
+	$('.mob-cat-btn').on('click touchstart',function (e) {
+		e.preventDefault();
+		$('.catalog-aside').slideToggle();
+		$(this).toggleClass('opened');
+	});
+	$('.mob-filtr-btn').on('click touchstart',function (e) {
+		e.preventDefault();
+		$('.catalog-filter').slideToggle();
+	})
+});
+// mob-catalog-btn
