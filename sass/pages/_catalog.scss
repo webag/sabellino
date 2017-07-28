@@ -20,15 +20,23 @@
 	}
 }
 
-.mob-cat-btn{
+
+.mob-catalog-actions{
+	width: 100%;
+	justify-content: space-between;
+	align-items: flex-start;
 	margin-bottom: 15px;
+	display: none;
+	@include res(m){
+		display: flex;
+	}
+}
+
+.mob-cat-btn{
 	text-transform: uppercase;
 	font-size: 16px;
 	font-weight: bold;
-	display: none;
-	@include res(m){
-		display: inline-block;
-	}
+	display: inline-block;
 
 	.i-down{
 		position: relative;
@@ -48,31 +56,22 @@
 	}
 }
 
-
 .mob-filtr-btn{
-	margin-top: 25px;
 	text-transform: uppercase;
 	background: $orange;
 	font-size: 16px;
 	font-weight: bold;
-	display: none;
+	display: inline-flex;
 	color: #FFF;
 	align-items: center;
 	justify-content: center;
-	@include res(m){
-		display: inline-flex;
-	}
 
 	img{
-		width: 18px;
-		height: 18px;
+		width: 16px;
+		height: 16px;
 		display: inline-block;
 		vertical-align: middle;
 		margin-left: 8px;
-	}
-
-	&__wrap{
-		text-align: right;
 	}
 }
 
