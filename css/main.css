@@ -3471,6 +3471,7 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 }
 
 .quantity input {
+  display: block;
   border: 0;
   width: 50px;
   text-align: center;
@@ -3483,6 +3484,7 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 }
 
 .quantity figure {
+  display: block;
   width: 20px;
   text-align: center;
   background-color: #fff;
