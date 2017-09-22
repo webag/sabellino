@@ -112,3 +112,24 @@
 	}
 }
 //site-bottom
+
+
+//s-instagramm
+.s-instagram{
+	text-align: center;
+	padding-bottom: 30px;
+
+	&__counter{
+		display: block;
+		margin: 4px 0;
+
+		strong{
+			font-weight: 600;
+		}
+	}
+
+	&__link{
+		@extend %link--baklazan-line;
+	}
+}
+//s-instagramm

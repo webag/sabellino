@@ -40,7 +40,7 @@
   border-bottom: 1px dotted #dd2d7a;
 }
 
-.agmodal footer a, .user-content a:not(.btn), .modal-cart header a, .s-404__right a {
+.agmodal footer a, .user-content a:not(.btn), .s-instagram__link, .modal-cart header a, .s-404__right a {
   color: #5c2c4e;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -48,7 +48,7 @@
   border-bottom: 1px solid #5c2c4e;
 }
 
-.agmodal footer a:hover, .user-content a:hover:not(.btn), .modal-cart header a:hover, .s-404__right a:hover {
+.agmodal footer a:hover, .user-content a:hover:not(.btn), .s-instagram__link:hover, .modal-cart header a:hover, .s-404__right a:hover {
   color: #dd2d7a;
   border-bottom: 1px solid #dd2d7a;
 }
@@ -2684,6 +2684,20 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 .site-bottom__pay img {
   display: inline-block;
   vertical-align: middle;
+}
+
+.s-instagram {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.s-instagram__counter {
+  display: block;
+  margin: 4px 0;
+}
+
+.s-instagram__counter strong {
+  font-weight: 600;
 }
 
 .mobile-menu-panel {

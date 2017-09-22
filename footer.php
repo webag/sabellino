@@ -1,5 +1,12 @@
 </main>
 
+<section class="s-instagram">
+	<div class="container">
+		<a href="https://www.instagram.com/sabellino.ru/" target="_blank" rel="nofollow" class="s-instagram__hashtag h3">#sabellino</a>
+		<span class="s-instagram__counter"><strong>31,4тыс.</strong> подписчиков в Instagram</span>
+		<a href="https://www.instagram.com/sabellino.ru/" target="_blank" rel="nofollow" class="s-instagram__link">Присоединяйтесь</a>
+	</div>
+</section>
 
 <footer class="site-footer">
 	<div class="container">
