@@ -122,6 +122,7 @@
 	&__block{
 		background: #f3f3f3;
 		padding: 35px 40px;
+		flex-shrink: 1;
 
 		.h3{
 			text-align: center;
@@ -470,7 +471,8 @@
 		z-index: 2;
 		left: 0;
 		right: 0;
-		max-width: 960px;
+		width: 960px;
+		max-width: 100%;
 		margin: auto;
 		text-align: center;
 		padding: 10px 20px;

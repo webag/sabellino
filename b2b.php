@@ -359,39 +359,40 @@ var locations = [
 	[57.766218, 34.559164]
 ];
 
-$(document).ready(function(){
+
+function initMap() {
+
+	var mapOptions = {
+		zoom: 5,
+		scrollwheel: false,
+		mapTypeControl: false,
+		streetViewControl: false,
+		rotateControl: false,
+		fullscreenControl: false,
+		zoomControlOptions: {
+			position: google.maps.ControlPosition.LEFT_CENTER
+		},
+		center: new google.maps.LatLng(locations[0][0], locations[0][1])
+	};
+
+	var mapElement = document.getElementById('b2b-map');
+
+	var map = new google.maps.Map(mapElement, mapOptions);
+
+	var marker, i;
+	for (i = 0; i < locations.length; i++) {
+		marker = new google.maps.Marker({
+			position: new google.maps.LatLng(locations[i][0], locations[i][1]),
+			map: map,
+			icon: '/images/b2b/pin.png'
+		});
+	}
+
+}
+
+$(window).on('load',function(){
 	if ($('#b2b-map').length) {
-		google.maps.event.addDomListener(window, 'load', initMap);
-
-		function initMap() {
-
-			var mapOptions = {
-				zoom: 5,
-				scrollwheel: false,
-				mapTypeControl: false,
-				streetViewControl: false,
-				rotateControl: false,
-				fullscreenControl: false,
-				zoomControlOptions: {
-					position: google.maps.ControlPosition.LEFT_CENTER
-				},
-				center: new google.maps.LatLng(locations[0][0], locations[0][1])
-			};
-
-			var mapElement = document.getElementById('b2b-map');
-
-			var map = new google.maps.Map(mapElement, mapOptions);
-
-			var marker, i;
-			for (i = 0; i < locations.length; i++) {
-				marker = new google.maps.Marker({
-					position: new google.maps.LatLng(locations[i][0], locations[i][1]),
-					map: map,
-					icon: '/images/b2b/pin.png'
-				});
-			}
-
-		}
+		initMap();
 	}
 });
 /**************************************************
