@@ -49,6 +49,19 @@
 	}
 }
 
+.btn--pink{
+	color: #FFF;
+	background-color: $pink;
+	border: 1px solid $pink;
+	border-radius: 10px;
+
+	&:hover,&:focus{
+		background-color: $baklazan;
+		border: 1px solid $baklazan;
+		color: #FFF;
+	}
+}
+
 .btn--white{
 	color: #FFF;
 	background-color: transparent;
