@@ -81,7 +81,7 @@
 					</label>
 				</div>
 				<input type="hidden" name="form_subject" value="Получить оптовый прайс-лист">
-				<button type="submit" class="btn btn--blue btn--big need_terms">Зарегистрироваться</button>
+				<button type="submit" class="btn btn--blue btn--big b2b_need_terms">Зарегистрироваться</button>
 			</form>
 			<div class="b2b-order__note">После регистрации вы получите Прайс-лист и доступ на сайте к оптовым ценам</div>
 		</div>
@@ -103,31 +103,37 @@
 
 	<div class="b2b-video-row">
 		<div class="grid-4 grid-12_s">
-			<a href="https://www.youtube.com/embed/nN6qWmFIyGI?autoplay=1" class="b2b-video fancy-video fancybox.iframe">
+			<div class="b2b-video">
 				<img src="/images/b2b/video-1.jpg" alt="1">
 				<div class="b2b-video__front">
-					<figure></figure>
+					<a href="https://www.youtube.com/embed/nN6qWmFIyGI?autoplay=1" class="fancy-video fancybox.iframe">
+						<figure></figure>
+					</a>
 					<span>Коллекция "ххх"</span>
 				</div>
-			</a>
+			</div>
 		</div>
 		<div class="grid-4 grid-12_s">
-			<a href="https://www.youtube.com/embed/nN6qWmFIyGI?autoplay=1" class="b2b-video fancy-video fancybox.iframe">
-				<img src="/images/b2b/video-2.jpg" alt="2">
+			<div class="b2b-video">
+				<img src="/images/b2b/video-2.jpg" alt="1">
 				<div class="b2b-video__front">
-					<figure></figure>
+					<a href="https://www.youtube.com/embed/nN6qWmFIyGI?autoplay=1" class="fancy-video fancybox.iframe">
+						<figure></figure>
+					</a>
 					<span>Коллекция "Angle bag"</span>
 				</div>
-			</a>
+			</div>
 		</div>
 		<div class="grid-4 grid-12_s">
-			<a href="https://www.youtube.com/embed/nN6qWmFIyGI?autoplay=1" class="b2b-video fancy-video fancybox.iframe">
-				<img src="/images/b2b/video-3.jpg" alt="3">
+			<div class="b2b-video">
+				<img src="/images/b2b/video-3.jpg" alt="1">
 				<div class="b2b-video__front">
-					<figure></figure>
-					<span>Коллекция "ххх"</span>
+					<a href="https://www.youtube.com/embed/nN6qWmFIyGI?autoplay=1" class="fancy-video fancybox.iframe">
+						<figure></figure>
+					</a>
+					<span>Коллекция "Angle bag"</span>
 				</div>
-			</a>
+			</div>
 		</div>
 	</div>
 
@@ -178,12 +184,14 @@
 	<div class="grid-7 grid-12_m s-b2b-about__left">
 		<p class="h3">Видео о нашей компании</p>
 
-		<a href="https://www.youtube.com/embed/nN6qWmFIyGI?autoplay=1" class="b2b-video fancy-video fancybox.iframe">
+		<div class="b2b-video b2b-video--notext">
 			<img src="/images/b2b/video-about.jpg" alt="1">
 			<div class="b2b-video__front">
-				<figure></figure>
+				<a href="https://www.youtube.com/embed/nN6qWmFIyGI?autoplay=1" class="fancy-video fancybox.iframe">
+					<figure></figure>
+				</a>
 			</div>
-		</a>
+		</div>
 	</div>
 
 	<div class="grid-5 grid-12_m s-b2b-about__right">
@@ -298,7 +306,7 @@
 					</label>
 				</div>
 				<input type="hidden" name="form_subject" value="Получить оптовый прайс-лист">
-				<button type="submit" class="btn btn--blue btn--big need_terms">Зарегистрироваться</button>
+				<button type="submit" class="btn btn--blue btn--big b2b_need_terms">Зарегистрироваться</button>
 			</form>
 			<div class="b2b-order__note">После регистрации вы получите Прайс-лист и доступ на сайте к оптовым ценам</div>
 		</div>
@@ -326,7 +334,7 @@
 				<input type="tel" name="user_phone" data-req="true" data-label="Телефон">
 			</div>
 			<input type="hidden" name="form_subject" value="b2b - регистрация">
-			<button type="submit" class="btn btn--blue btn--big need_terms">Отправить</button>
+			<button type="submit" class="btn btn--blue btn--big b2b_need_terms">Отправить</button>
 			<div class="registr-sec__note">
 				<label class="term_label">
 					<input type="checkbox" name="b2b-terms" checked>
@@ -341,7 +349,7 @@
 <script>
 	$("input[name='b2b-terms']").change(function(){
 		var this_form = $(this).parents('form');
-		var this_btn = this_form.find('.need_terms');
+		var this_btn = this_form.find('.b2b_need_terms');
 		if($(this).prop("checked"))
 			this_btn.removeAttr('disabled');
 		else

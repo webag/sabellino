@@ -7182,6 +7182,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   padding: 20px 0;
 }
 
+@media (max-width: 768px) {
+  .s-b2b-head {
+    padding: 10px 0;
+  }
+}
+
 .b2b-head {
   text-align: center;
   display: -webkit-box;
@@ -7209,6 +7215,14 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   text-transform: uppercase;
 }
 
+@media (max-width: 768px) {
+  .b2b-head mark {
+    font-size: 14px;
+    max-width: 220px;
+    margin-bottom: 25px;
+  }
+}
+
 .b2b-head .btn {
   margin: 25px 0;
 }
@@ -7227,6 +7241,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 .s-b2b-preims {
   padding: 30px 0;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .s-b2b-preims {
+    padding: 0;
+  }
 }
 
 .s-b2b-preims .h3 {
@@ -7303,14 +7323,30 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   }
 }
 
+@media (max-width: 768px) {
+  .b2b-preim__title {
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 1024px) {
   .b2b-preim p {
     font-size: 12px;
   }
 }
 
+@media (max-width: 768px) {
+  .b2b-preim p {
+    font-size: 14px;
+  }
+}
+
 .s-b2b-order {
   padding: 40px 0;
+}
+
+.s-b2b-order--last {
+  padding-bottom: 0;
 }
 
 .b2b-order {
@@ -7326,6 +7362,13 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .b2b-order {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
 }
 
 .b2b-order__woman {
@@ -7354,9 +7397,27 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   flex-shrink: 1;
 }
 
+@media (max-width: 768px) {
+  .b2b-order__block {
+    padding: 35px 20px;
+    width: 100%;
+  }
+}
+
+.b2b-order__block--mob {
+  padding-bottom: 230px;
+  background: url("../images/b2b/order-woman-mob.jpg") center bottom no-repeat #f3f3f3;
+}
+
 .b2b-order__block .h3 {
   text-align: center;
   margin-bottom: 1em;
+}
+
+@media (max-width: 768px) {
+  .b2b-order__block .h3 {
+    font-size: 18px;
+  }
 }
 
 .b2b-order__block .registr-sec__note {
@@ -7364,9 +7425,22 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+  .b2b-order__block .btn {
+    width: 280px;
+    max-width: 100%;
+  }
+}
+
 .b2b-order__note {
   color: #666666;
   margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .b2b-order__note {
+    text-align: center;
+  }
 }
 
 .s-b2b-shout {
@@ -7387,8 +7461,19 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   text-align: center;
 }
 
+.s-b2b-video--mob {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
 .s-b2b-video .h3 {
   margin-bottom: 1.5em;
+}
+
+@media (max-width: 768px) {
+  .s-b2b-video .h3 {
+    font-size: 18px;
+  }
 }
 
 .s-b2b-video .btn {
@@ -7413,9 +7498,14 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 }
 
 .b2b-video {
+  width: 100%;
   display: block;
   position: relative;
   overflow: hidden;
+}
+
+.b2b-video--notext .b2b-video__front {
+  padding: 10px;
 }
 
 .b2b-video img {
@@ -7458,7 +7548,7 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 10px;
+  padding: 50px 10px 10px 10px;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -7495,6 +7585,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   justify-content: center;
 }
 
+.b2b-video__front figure:hover {
+  background: #dd2d7a;
+  -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
 .b2b-video__front figure:after {
   content: '';
   width: 15px;
@@ -7514,10 +7610,21 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   background: rgba(0, 0, 0, 0.5);
 }
 
-.b2b-video:hover .b2b-video__front figure {
-  background: #dd2d7a;
-  -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.2);
-  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.2);
+.b2b-video-slider .flickity-prev-next-button {
+  background: #FFF;
+  width: 30px;
+  height: 30px;
+  border-radius: 0;
+}
+
+.b2b-video-slider .flickity-prev-next-button.previous {
+  left: 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.b2b-video-slider .flickity-prev-next-button.next {
+  right: 0;
+  border-radius: 4px 0 0 4px;
 }
 
 .s-b2b-shops {
@@ -7549,9 +7656,21 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   padding: 40px 0;
 }
 
+@media (max-width: 768px) {
+  .s-b2b-steps {
+    padding-bottom: 0;
+  }
+}
+
 .s-b2b-steps .h3 {
   text-align: center;
   margin-bottom: 1.8em;
+}
+
+@media (max-width: 768px) {
+  .s-b2b-steps .h3 {
+    font-size: 18px;
+  }
 }
 
 .b2b-steps-row {
@@ -7581,14 +7700,20 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 @media (max-width: 768px) {
   .b2b-step {
-    width: 25%;
+    width: 100%;
     margin-bottom: 30px;
+    padding: 0 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
-}
-
-@media (max-width: 580px) {
-  .b2b-step {
-    width: 50%;
+  .b2b-step:last-of-type {
+    margin-bottom: 0;
   }
 }
 
@@ -7613,6 +7738,25 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   margin-bottom: 15px;
 }
 
+@media (max-width: 768px) {
+  .b2b-step header {
+    width: 68px;
+    height: 68px;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .b2b-step header img {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+  }
+}
+
 .b2b-step header span {
   position: absolute;
   top: -3px;
@@ -7628,6 +7772,15 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   border-radius: 50%;
 }
 
+@media (max-width: 768px) {
+  .b2b-step header span {
+    font-size: 14px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+  }
+}
+
 .b2b-step p {
   font-size: 15px;
 }
@@ -7638,11 +7791,19 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   }
 }
 
+@media (max-width: 768px) {
+  .b2b-step p {
+    font-size: 14px;
+    padding-top: 5px;
+  }
+}
+
 .b2b-step:after {
   content: '';
   width: 34px;
   height: 21px;
   background: url("../images/b2b/step-arrow.png") center top no-repeat;
+  background-size: 100% 100%;
   position: absolute;
   left: 63%;
   top: 30px;
@@ -7651,6 +7812,19 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 @media (max-width: 1024px) {
   .b2b-step:after {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .b2b-step:after {
+    display: block;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    width: 18px;
+    height: 13px;
+    left: 45px;
+    top: 83px;
   }
 }
 
@@ -7725,6 +7899,7 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .b2b-about-block__ans {
   font-size: 15px;
+  color: #464646;
 }
 
 .s-b2b-geo {
@@ -7736,11 +7911,24 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   margin-bottom: 40px;
 }
 
+@media (max-width: 768px) {
+  .s-b2b-geo .h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+}
+
 #b2b-map {
   height: 500px;
   width: 100%;
   position: relative;
   z-index: 1;
+}
+
+@media (max-width: 768px) {
+  #b2b-map {
+    height: 380px;
+  }
 }
 
 .b2b-map-frame {
@@ -7766,4 +7954,46 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   border-radius: 0 0 42px 42px;
   border: 1px solid #f2f2f0;
   border-top: none;
+}
+
+@media (max-width: 768px) {
+  .b2b-map-frame__text {
+    font-size: 14px;
+    padding: 10px 10px;
+    width: initial;
+    left: 20px;
+    right: 20px;
+  }
+}
+
+.s-b2b-faq-mob {
+  padding: 20px 10px;
+}
+
+.s-b2b-faq-mob .h3 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.s-b2b-faq-mob .btn {
+  padding: 13px 15px;
+}
+
+.s-b2b-about-video-mob {
+  margin-left: -10px;
+  margin-right: -10px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.s-b2b-about-video-mob .h3 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.s-b2b-about-video-mob .btn {
+  padding: 13px 15px;
+  margin-top: 20px;
 }

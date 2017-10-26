@@ -133,10 +133,15 @@ $(document).ready(function(){
 		max: 100000,
 		hide_min_max: true,
 		postfix: ' р.',
+		grid: false,
 		onChange: function (data) { // data - массив со всеми значениями слайдера цены.
-			$('.price_from').val(data.from);
-			$('.price_to').val(data.to);
-		}
+			$("input.price-filter--from").val(data.from);
+			$("input.price-filter--to").val(data.to);
+		},
+		onFinish: function (data) {
+									$("input.price-filter--to").change();
+									//console.log('finish');
+								 },
 	});
 });
 // price_slider
@@ -253,3 +258,22 @@ $(document).ready(function() {
 	})
 });
 // mob-catalog-btn
+
+
+// b2b-video-slider
+$(document).ready(function(){
+	$('.b2b-video-slider').flickity({
+		cellAlign: 'left',
+		contain: true,
+		adaptiveHeight: false,
+		imagesLoaded: true,
+		pageDots: false,
+		arrowShape: {
+			x0: 30,
+			x1: 50, y1: 40,
+			x2: 60, y2: 40,
+			x3: 40
+		}
+	});
+});
+// b2b-video-slider
