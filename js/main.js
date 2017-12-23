@@ -25,6 +25,7 @@ $(document).ready(function(){
 		});
 
 		if (send === true) {
+            form.parents('.agmodal').agmodal('close');
 			$.ajax({
 				type: "POST",
 				async: true,
@@ -34,10 +35,10 @@ $(document).ready(function(){
 				processData: false,
 				data: form_data
 			}).success(function(result) {
-				console.log(result);
-				form.parents('.agmodal').agmodal('close');
 				$('#modal-spasibo').agmodal('open');
 				form.find("input[type!='hidden']").val('');
+                if (result)
+                    $('body').append(result);
 			});
 		}
 	});
@@ -277,3 +278,16 @@ $(document).ready(function(){
 	});
 });
 // b2b-video-slider
+
+
+// subscribe
+$(document).ready(function() {
+	$('.subscribe-promo__close').on('click',function () {
+		$('.subscribe-promo').addClass('is-hidden');
+	});
+
+	$('.subscribe-promo').on('click',function () {
+		$('.subscribe-promo').addClass('is-hidden');
+	});
+});
+// subscribe

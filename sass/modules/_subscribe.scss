@@ -1,0 +1,111 @@
+//subscribe-promo
+.subscribe-promo{
+	position: fixed;
+	z-index: 10;
+	left: 0;
+	bottom: 50px;
+	background: #FFF;
+	width: 200px;
+	height: 200px;
+	box-shadow: 0 0 18px 2px rgba(0,0,0,0.4);
+	text-align: center;
+	padding-top: 25px;
+	cursor: pointer;
+	transition: all 0.6s ease;
+	transform: translate3d(0,0,0);
+	@include res(l){
+		display: none;
+	}
+
+	&:hover{
+		box-shadow: 0 0 18px 2px $pink;
+	}
+	
+	&.is-hidden{
+		transform: translate3d(-220px,0,0);
+	}
+
+	span{
+		display: block;
+		color: $grey;
+		text-transform: uppercase;
+		margin-top: 10px;
+		font-weight: bold;
+	}
+
+	&__close{
+		@include cross(18px,$grey-light,$orange);
+		top: 13px;
+		right: 13px;
+	}
+}
+//subscribe-promo
+
+
+//modal-subsribe
+.modal-subsribe{
+
+	&__img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		@include res(s){
+			width: 50%;
+		}
+	}
+
+	&__descr{
+		color: $grey;
+		font-size: 15px;
+		text-align: center;
+		max-width: 260px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+
+	.input-group{
+
+		input{
+			height: 50px;
+		}
+	}
+
+	.term_label{
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		margin-top: 10px;
+	}
+}
+
+.content-center{
+	text-align: center;
+}
+//modal-subsribe
+
+
+//modal-subsribe-thanks
+.modal-subsribe-thanks{
+
+	main{
+		text-align: center;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.h4{
+		color: $pink;
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+
+	p{
+		margin-bottom: 15px;
+		font-size: 18px;
+		color: $grey;
+	}
+}
+//modal-subsribe-thanks

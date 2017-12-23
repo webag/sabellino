@@ -2101,11 +2101,9 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .site-top .container {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
   padding: 0;
@@ -2343,15 +2341,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .site-header__bottom {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   padding: 0 10px 0 0;
@@ -2443,7 +2438,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 }
 
 .search-form__wrapper {
-  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
 }
@@ -2474,15 +2468,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   right: 0;
   width: 40px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
@@ -2506,10 +2497,8 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 .breadcrumbs .container {
   padding-top: 10px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -2546,11 +2535,9 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .site-footer .container {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0;
@@ -2558,11 +2545,9 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 @media (max-width: 1024px) {
   .site-footer .container {
-    -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
   }
@@ -2570,7 +2555,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .site-footer__block {
   -webkit-box-ordinal-group: 2;
-  -webkit-order: 1;
   -ms-flex-order: 1;
   order: 1;
   font-size: 12px;
@@ -2599,11 +2583,9 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .site-footer__block--img {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   margin-bottom: 15px;
@@ -2611,7 +2593,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .site-footer__block--img img {
   width: 32px;
-  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   margin-right: 10px;
@@ -2647,15 +2628,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .site-bottom .container {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
 }
@@ -2664,7 +2642,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   .site-bottom .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     text-align: center;
@@ -2832,11 +2809,9 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   right: 0;
   bottom: 0;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   padding: 0 10px;
@@ -2924,15 +2899,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   right: 0;
   width: 40px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
@@ -3045,15 +3017,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .ti header {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   height: 250px;
@@ -3200,20 +3169,16 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   text-align: center;
   padding-top: 20px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
 }
@@ -3221,7 +3186,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 @media (max-width: 1024px) {
   .ti-buy {
     -webkit-box-align: start;
-    -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
   }
@@ -3262,17 +3226,14 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   width: 40px;
   height: 40px;
   display: -webkit-inline-box;
-  display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   vertical-align: middle;
   margin-right: 3px;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   font-weight: 600;
@@ -3384,11 +3345,9 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .actions-section {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   margin-bottom: 35px;
@@ -3398,11 +3357,9 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   .actions-section {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-align: start;
-    -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
   }
@@ -3411,14 +3368,11 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 .actions-section__right {
   margin-left: auto;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -3434,11 +3388,9 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   .actions-section__right {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-align: start;
-    -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
   }
@@ -3492,7 +3444,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   border: 1px solid #c6c6c6;
   border-radius: 3px;
   display: -webkit-inline-box;
-  display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   overflow: hidden;
@@ -3562,11 +3513,9 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 .tabs {
   border-bottom: 1px solid #c6c6c6;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 55px;
@@ -3576,11 +3525,9 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   .tabs {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-align: center;
-    -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
     border-bottom: none;
@@ -3663,15 +3610,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   width: 100%;
   text-align: center;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: start;
-  -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
   padding-left: 60px;
@@ -3728,14 +3672,11 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   padding: 10px 35px;
   background-color: #e5e5e5;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
@@ -3764,11 +3705,9 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   padding: 15px 0;
   border-bottom: 1px dotted #c6c6c6;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
 }
@@ -3822,7 +3761,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 }
 
 .modal-cart-item__right {
-  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   margin-left: auto;
@@ -3875,15 +3813,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .modal-cart-order__row {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
@@ -3892,20 +3827,17 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   .modal-cart-order__row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
   }
 }
 
 .modal-cart-order__row input {
-  -webkit-flex-shrink: 1;
   -ms-flex-negative: 1;
   flex-shrink: 1;
 }
 
 .modal-cart-order__row button {
-  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   margin-left: 10px;
@@ -3916,6 +3848,147 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
     margin-left: 0;
     margin-top: 10px;
   }
+}
+
+.subscribe-promo {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  bottom: 50px;
+  background: #FFF;
+  width: 200px;
+  height: 200px;
+  -webkit-box-shadow: 0 0 18px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 18px 2px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding-top: 25px;
+  cursor: pointer;
+  -webkit-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+@media (max-width: 1024px) {
+  .subscribe-promo {
+    display: none;
+  }
+}
+
+.subscribe-promo:hover {
+  -webkit-box-shadow: 0 0 18px 2px #dd2d7a;
+  box-shadow: 0 0 18px 2px #dd2d7a;
+}
+
+.subscribe-promo.is-hidden {
+  -webkit-transform: translate3d(-220px, 0, 0);
+  transform: translate3d(-220px, 0, 0);
+}
+
+.subscribe-promo span {
+  display: block;
+  color: #666666;
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.subscribe-promo__close {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  top: 13px;
+  right: 13px;
+}
+
+.subscribe-promo__close:before, .subscribe-promo__close:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 18px;
+  height: 2px;
+  background-color: #c6c6c6;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.subscribe-promo__close:hover:before, .subscribe-promo__close:hover:after {
+  background-color: #ed5f5f;
+}
+
+.subscribe-promo__close:before {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.subscribe-promo__close:after {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.modal-subsribe__img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 580px) {
+  .modal-subsribe__img {
+    width: 50%;
+  }
+}
+
+.modal-subsribe__descr {
+  color: #666666;
+  font-size: 15px;
+  text-align: center;
+  max-width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.modal-subsribe .input-group input {
+  height: 50px;
+}
+
+.modal-subsribe .term_label {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 10px;
+}
+
+.content-center {
+  text-align: center;
+}
+
+.modal-subsribe-thanks main {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.modal-subsribe-thanks .h4 {
+  color: #dd2d7a;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.modal-subsribe-thanks p {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #666666;
 }
 
 .home-slider {
@@ -3937,11 +4010,9 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 .home-slide {
   width: 100%;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
 }
@@ -3950,7 +4021,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   .home-slide {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
   }
@@ -3967,16 +4037,13 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 .home-slide__left {
   width: 50%;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
@@ -4070,15 +4137,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .home-banners {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
   padding: 30px 0;
@@ -4088,7 +4152,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   .home-banners {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
   }
@@ -4097,16 +4160,13 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 .home-banners--left {
   width: 50%;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding-right: 20px;
@@ -4263,15 +4323,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   left: 0;
   right: 0;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
@@ -4326,15 +4383,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .home-sbanners .row {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
   margin-left: -10px;
@@ -4343,7 +4397,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 @media (max-width: 768px) {
   .home-sbanners .row {
-    -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
@@ -4441,11 +4494,9 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 .home-trigger header {
   height: 55px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-  -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
   margin-bottom: 15px;
@@ -4457,14 +4508,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .catalog-wrapper {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
 @media (max-width: 768px) {
   .catalog-wrapper {
-    -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
@@ -4472,7 +4521,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .catalog-aside {
   width: 290px;
-  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
 }
@@ -4495,11 +4543,9 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 .mob-catalog-actions {
   width: 100%;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-box-align: start;
-  -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
   margin-bottom: 15px;
@@ -4509,7 +4555,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 @media (max-width: 768px) {
   .mob-catalog-actions {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
   }
@@ -4551,16 +4596,13 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   font-size: 16px;
   font-weight: bold;
   display: -webkit-inline-box;
-  display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   color: #FFF;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
@@ -4690,15 +4732,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 @media (max-width: 768px) {
   .cats-menu__has-sub i {
     display: -webkit-inline-box;
-    display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
     display: inline-flex;
     -webkit-box-align: center;
-    -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     font-size: 8px;
@@ -4741,10 +4780,8 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 .catalog-list {
   padding: 40px 0 0 0;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -4769,10 +4806,8 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .product-list {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -4812,7 +4847,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .catalog-filter header {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
@@ -4821,14 +4855,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   .catalog-filter header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
   }
 }
 
 .filters {
-  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
 }
@@ -5011,15 +5043,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .sorters {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
   width: 100%;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -5028,11 +5057,9 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   .sorters {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-align: end;
-    -webkit-align-items: flex-end;
     -ms-flex-align: end;
     align-items: flex-end;
   }
@@ -5042,15 +5069,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   .sorters {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
     -webkit-box-align: start;
-    -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
     -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
   }
@@ -5259,15 +5283,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .novinki-section__header {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-  -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
   margin-bottom: 10px;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -5276,15 +5297,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   .novinki-section__header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-align: start;
-    -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
     -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
   }
@@ -5408,14 +5426,11 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 .tovar-info__prices {
   margin-bottom: 15px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -5559,15 +5574,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .tovar-info__footer {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
 }
@@ -5578,7 +5590,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 }
 
 .tovar-info__socials {
-  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   padding-left: 10px;
@@ -5632,18 +5643,15 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .sab-trigger {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   margin-bottom: 15px;
 }
 
 .sab-trigger img {
-  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   width: 59px;
@@ -5764,11 +5772,9 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .cid-wrap {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-  -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
 }
@@ -5777,7 +5783,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   .cid-wrap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
   }
@@ -5920,15 +5925,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .cart-footer {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-box-align: start;
-  -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
   margin-bottom: 30px;
@@ -5940,7 +5942,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   .cart-footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
   }
@@ -5952,7 +5953,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   border-radius: 3px;
   width: 520px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
@@ -5968,7 +5968,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   .coupon-block {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
   }
@@ -6003,7 +6002,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .cart-total {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 5px;
@@ -6041,14 +6039,11 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   margin-left: auto;
   margin-right: auto;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -6147,7 +6142,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   margin-left: auto;
   margin-right: auto;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   cursor: pointer;
@@ -6162,7 +6156,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 @media (max-width: 580px) {
   .method {
     display: -webkit-inline-box;
-    display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
     display: inline-flex;
     vertical-align: top;
@@ -6170,7 +6163,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
     margin-right: -4px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     font-size: 12px;
@@ -6187,10 +6179,8 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .method figure {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   width: 62px;
@@ -6199,11 +6189,9 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   overflow: hidden;
   border: 2px solid #5c2c4e;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   margin-right: 40px;
@@ -6317,20 +6305,16 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .blog-list .row {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
   -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
   margin-left: -10px;
   margin-right: -10px;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -6554,11 +6538,9 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 .cart-lk-header {
   margin-bottom: 20px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
 }
@@ -6567,7 +6549,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   .cart-lk-header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
   }
@@ -6658,17 +6639,14 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .c-block {
   display: -webkit-inline-box;
-  display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
 }
 
 .c-block img {
-  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   margin: 0 10px 0 0;
@@ -6782,17 +6760,13 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .about-partners__list {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-justify-content: space-around;
   -ms-flex-pack: distribute;
   justify-content: space-around;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -6992,22 +6966,18 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .s-404 .container {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
 }
 
 @media (max-width: 580px) {
   .s-404 .container {
-    -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
@@ -7021,7 +6991,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   border-right: 3px solid #5c2c4e;
   padding-right: 40px;
   margin-right: 40px;
-  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
 }
@@ -7078,15 +7047,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .gendir {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 80px;
@@ -7096,7 +7062,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   .gendir {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     text-align: center;
@@ -7199,16 +7164,13 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 .b2b-head {
   text-align: center;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
 }
@@ -7263,18 +7225,15 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .b2b-preims-row {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
 
 @media (max-width: 768px) {
   .b2b-preims-row {
-    -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
@@ -7301,15 +7260,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 .b2b-preim header {
   height: 120px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
@@ -7359,15 +7315,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .b2b-order {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-  -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
@@ -7381,7 +7334,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .b2b-order__woman {
   width: calc(100% / 9 * 2);
-  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
 }
@@ -7400,7 +7352,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 .b2b-order__block {
   background: #f3f3f3;
   padding: 35px 40px;
-  -webkit-flex-shrink: 1;
   -ms-flex-negative: 1;
   flex-shrink: 1;
 }
@@ -7540,20 +7491,16 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   right: 0;
   background: rgba(0, 0, 0, 0.3);
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   padding: 50px 10px 10px 10px;
@@ -7577,18 +7524,15 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   -webkit-box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2);
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2);
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
@@ -7683,18 +7627,15 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .b2b-steps-row {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
 @media (max-width: 768px) {
   .b2b-steps-row {
-    -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
   }
@@ -7712,11 +7653,9 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
     margin-bottom: 30px;
     padding: 0 20px;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: start;
-    -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
   }
@@ -7729,15 +7668,12 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   width: 85px;
   height: 85px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   position: relative;
@@ -7750,7 +7686,6 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   .b2b-step header {
     width: 68px;
     height: 68px;
-    -webkit-flex-shrink: 0;
     -ms-flex-negative: 0;
     flex-shrink: 0;
     margin-right: 15px;

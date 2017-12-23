@@ -154,5 +154,49 @@
 <!-- Модальные окна -->
 
 
+<!--300 за подписку-->
+<div class="subscribe-promo">
+	<main data-ag="modal-subscribe">
+		<img src="/images/prize300.png" alt="prize300">
+		<span>За подписку</span>
+	</main>
+	<div class="subscribe-promo__close"></div>
+</div>
+
+<div id="modal-subscribe" class="agmodal modal-subsribe">
+	<main>
+		<img src="/images/prize300-big.png" alt="prize300" class="modal-subsribe__img">
+		<p class="modal-subsribe__descr">Подпишитесь на&nbsp;нашу рассылку и&nbsp;получите 300&nbsp;рублей в&nbsp;подарок!</p>
+		<form>
+			<div class="input-group">
+				<input type="text" name="user_name" data-label="Ф.И.О." placeholder="Имя">
+			</div>
+			<div class="input-group">
+				<input type="email" name="user_email" data-req="true" data-label="E-mail" placeholder="E-mail*">
+			</div>
+			<div class="content-center">
+				<button type="submit" class="btn btn--blue btn--big need_terms">Получить подарок</button>
+			</div>
+			<label class="term_label">
+				<input type="checkbox" name="terms" checked required>
+				я соглашаюсь получать рассылку от sabellino.ru
+			</label>
+		</form>
+	</main>
+	<footer>
+		<p>* скидка действует на покупку от 5000 рублей</p>
+	</footer>
+</div>
+
+<div id="modal-subscribe-thanks" class="agmodal modal-subsribe-thanks">
+	<main>
+		<p class="h4">Спасибо!</p>
+		<p><strong>На вашу почту отправлен</strong> одноразовый <strong>промокод на&nbsp;300&nbsp;рублей</strong>, используйте его в&nbsp;корзине при&nbsp;оформлении заказа <strong>для&nbsp;активации скидки.</strong></p>
+		<p>Скидка действует при&nbsp;общей стоимости заказа от&nbsp;5000 рублей. </p>
+	</main>
+</div>
+<!--300 за подписку-->
+
+
 	</body>
 </html>
