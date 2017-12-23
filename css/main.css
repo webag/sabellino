@@ -3991,6 +3991,99 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   color: #666666;
 }
 
+.s-subscribe {
+  background-color: #232323;
+  color: #FFF;
+  padding: 25px 0 0 0;
+}
+
+.subscribe-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 415px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subscribe-form input {
+  width: 1005px;
+  height: 38px;
+  display: block;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 0;
+  background: transparent;
+  color: #FFF;
+  font-size: 12px;
+}
+
+.subscribe-form input::-webkit-input-placeholder {
+  color: #999999;
+  opacity: 1;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.subscribe-form input::-moz-placeholder {
+  color: #999999;
+  opacity: 1;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.subscribe-form input:-moz-placeholder {
+  color: #999999;
+  opacity: 1;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.subscribe-form input:-ms-input-placeholder {
+  color: #999999;
+  opacity: 1;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.subscribe-form button {
+  margin-left: 8px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  background: #606060;
+  border: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #FFF;
+  padding: 8px 25px;
+  height: 38px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 580px) {
+  .subscribe-form button {
+    padding: 8px 10px;
+  }
+}
+
+.subscribe-form button:hover, .subscribe-form button:focus {
+  outline: none;
+  background: #838383;
+}
+
 .home-slider {
   margin-top: 10px;
 }
