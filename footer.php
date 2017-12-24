@@ -8,16 +8,17 @@
 	</div>
 </section>
 
-<!--
+
 <section class="s-subscribe">
 	<div class="container">
 		<form action="#" class="subscribe-form">
 			<input type="email" name="XXX" placeholder="Введите Вашу почту*" required>
 			<button type="submit">Подписаться </button>
 		</form>
+		<div class="s-subscribe__message h5" id="s-subscribe__message"></div>
 	</div>
 </section>
--->
+
 
 <footer class="site-footer">
 	<div class="container">

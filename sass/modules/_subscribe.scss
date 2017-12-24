@@ -116,6 +116,11 @@
 	background-color: #232323;
 	color: #FFF;
 	padding: 25px 0 0 0;
+
+	&__message{
+		padding: 10px 0;
+		text-align: center;
+	}
 }
 
 .subscribe-form{

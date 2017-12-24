@@ -3997,6 +3997,11 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   padding: 25px 0 0 0;
 }
 
+.s-subscribe__message {
+  padding: 10px 0;
+  text-align: center;
+}
+
 .subscribe-form {
   display: -webkit-box;
   display: -ms-flexbox;
