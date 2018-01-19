@@ -158,6 +158,41 @@
 		z-index: 50;
 		pointer-events: all;
 	}
+
+	&__header{
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		margin-bottom: 10px;
+	}
+
+	&__insta{
+		display: inline-block;
+		vertical-align: middle;
+		position: relative;
+		align-items: center;
+		line-height: 45px;
+		padding: 0 10px 0 32px;
+		font-weight: 600;
+		margin-left: 10px;
+
+		img{
+			position: absolute;
+			width: 26px;
+			height: auto;
+			left: 0;
+			top: 10px;
+		}
+
+		span{
+			line-height: 1.3;
+			color: $pink;
+			transition: all 0.3s ease;
+			border-bottom: 1px solid $pink;
+			white-space: nowrap;
+
+		}
+	}
 }
 // mobile-menu
 

@@ -44,11 +44,17 @@
 
 <div class="mobile-menu">
 
-	<nav class="user-menu">
-		<a href="/lk-info.php"><span>Личный кабинет</span></a>
-		<a href="/login.php"><span>Вход</span></a>
-		<a href="#" data-ag="choose-registr"><span class="um-dotted">Регистрация</span></a>
-	</nav>
+	<div class="mobile-menu__header">
+		<nav class="user-menu">
+			<a href="/lk-info.php"><span>Личный кабинет</span></a>
+			<a href="/login.php"><span>Вход</span></a>
+			<a href="#" data-ag="choose-registr"><span class="um-dotted">Регистрация</span></a>
+		</nav>
+		<a href="https://www.instagram.com/sabellino.ru/" target="_blank" class="mobile-menu__insta">
+			<img src="/images/mob-insta.svg" alt="instagram">
+			<span>Мы в Instagram</span>
+		</a>
+	</div>
 
 	<form action="#" class="mobile-search-form">
 		<input type="text" name="search-input" placeholder="Поиск">
