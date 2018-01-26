@@ -22,6 +22,12 @@
 			<div class="tovar-big-slide">
 				<img src="/images/thumbs/t-slide3.jpg" alt="3">
 			</div>
+			<div class="tovar-big-slide tovar-big-slide--video">
+				<img src="/images/thumbs/slider-video.jpg" alt="">
+				<a href="https://www.youtube.com/embed/TFl4RkBqILg?autoplay=1" class="fancy-video fancybox.iframe" title="Посмотреть видео о товаре">
+					<i class="i-play"></i>
+				</a>
+			</div>
 		</div>
 
 		<div class="tovar-small-slider">
@@ -36,6 +42,10 @@
 			</div>
 			<div class="tovar-small-slide">
 				<img src="/images/thumbs/t-slide3.jpg" alt="70x70">
+			</div>
+			<div class="tovar-small-slide tovar-small-slide--video">
+				<img src="/images/thumbs/slider-video.jpg" alt="">
+				<i class="i-play"></i>
 			</div>
 		</div>
 	</div>
@@ -88,6 +98,12 @@
 				<p>Модель с короткими рукавами и округлым вырезом горловины. Прекрасный вариант на каждый день. Изделие декорировано печатным рисунком.</p>
 			</div>
 		</main>
+		<div class="tovar-info__video">
+			<a href="https://www.youtube.com/embed/TFl4RkBqILg?autoplay=1" class="fancy-video fancybox.iframe" title="Посмотреть видео о товаре">
+				<img src="/upload/iblock/cc3/17.jpg" alt="Рюкзак женский #AngleBag синий" class="fancy-video__thumb">
+				<i class="i-play"></i>
+			</a>
+		</div>
 		<div class="tovar-info__properties">
 			<span>Бренд: <strong>Sabellino</strong></span>
 			<span>Материал основной: <strong>экокожа</strong></span>
