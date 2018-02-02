@@ -5935,6 +5935,11 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
   }
 }
 
+.tovar-info-avail__content {
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+}
+
 .tovar-info-avail__title {
   font-size: 13px;
   color: #5c2c4e;
