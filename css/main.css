@@ -40,7 +40,7 @@
   border-bottom: 1px dotted #dd2d7a;
 }
 
-.agmodal footer a, .user-content a:not(.btn), .s-instagram__link, .modal-cart header a, .s-404__right a {
+.agmodal footer a, .user-content a:not(.btn), .s-instagram__link, .modal-cart header a, .tovar-info-avail__shop a, .s-404__right a {
   color: #5c2c4e;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -48,7 +48,7 @@
   border-bottom: 1px solid #5c2c4e;
 }
 
-.agmodal footer a:hover, .user-content a:hover:not(.btn), .s-instagram__link:hover, .modal-cart header a:hover, .s-404__right a:hover {
+.agmodal footer a:hover, .user-content a:hover:not(.btn), .s-instagram__link:hover, .modal-cart header a:hover, .tovar-info-avail__shop a:hover, .s-404__right a:hover {
   color: #dd2d7a;
   border-bottom: 1px solid #dd2d7a;
 }
@@ -5733,7 +5733,7 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 }
 
 .tovar-info__buywrap {
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 .tovar-info__main {
@@ -5910,6 +5910,40 @@ input[type="text"].error, input[type="tel"].error, input[type="email"].error, in
 
 .sab-trigger strong {
   display: block;
+}
+
+.tovar-info-avail {
+  font-size: 12px;
+  margin-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.tovar-info-avail img {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-right: 5px;
+}
+
+@media (max-width: 1024px) {
+  .tovar-info-avail img {
+    width: 30px;
+  }
+}
+
+.tovar-info-avail__title {
+  font-size: 13px;
+  color: #5c2c4e;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.tovar-info-avail__shop {
+  margin-bottom: 2px;
 }
 
 .cart {

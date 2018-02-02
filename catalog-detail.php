@@ -87,6 +87,14 @@
 		<div class="tovar-info__buywrap">
 			<button class="btn btn--blue btn--big">Добавить в корзину</button>
 		</div>
+		<div class="tovar-info-avail">
+			<img src="/images/avail.png" alt="Иконка наличия">
+			<div class="tovar-info-avail__content">
+				<p class="tovar-info-avail__title">В наличии сейчас</p>
+				<p class="tovar-info-avail__shop"><a href="#">В ТЦ "Витте Молл", м.Бутово, ул. Венёвская, 6</a></p>
+				<p class="tovar-info-avail__shop"><a href="#">В ТЦ "Клен", м. Бабушкинская, Староватутинский пр-д, д. 14</a></p>
+			</div>
+		</div>
 		<div class="tovar-info__pricenote user-content">
 			<p>Указана розничная цена. Для получения доступа к оптовым ценам. пройдите <a href="#">регистрацию</a> и авторизуйтесь как юрлицо.</p>
 		</div>
