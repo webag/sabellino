@@ -7,6 +7,17 @@
 		align-items: flex-start;
 	}
 
+	&--cart{
+		align-items: flex-start;
+	}
+
+	&--cart-bottom{
+		align-items: flex-end;
+		@include res(m){
+			align-items: flex-start;
+		}
+	}
+
 	&__right{
 		margin-left: auto;
 		display: flex;
