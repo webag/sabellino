@@ -59,7 +59,28 @@
 			<span class="tovar-info__old-price">6 000 руб.</span>
 			<span class="tovar-info__new-price">3 000 руб.</span>
 			<!--<span class="tovar-info__price">3 000 руб.</span>-->
-			<span href="#" class="ti-label ti-label--baklazan">-10%</span>
+			<span class="ti-label ti-label--baklazan">-10%</span>
+		</div>
+		<div class="tovar-colors">
+			<span class="tovar-info__sm-title">Цвет: <strong class="tovar-colors__curtext">Красный</strong></span>
+			<div class="tovar-colors__list">
+				<label class="tovar-color" title="Красный">
+					<input type="radio" name="tc" value="Красный" checked>
+					<span style="background-color: #ed5f5f"></span>
+				</label>
+				<label class="tovar-color" title="Серый">
+					<input type="radio" name="tc" value="Серый">
+					<span style="background-color: #8e8e8e"></span>
+				</label>
+				<label class="tovar-color" title="Белый">
+					<input type="radio" name="tc" value="Белый">
+					<span style="background-color: #ffffff"></span>
+				</label>
+				<label class="tovar-color" title="Черный">
+					<input type="radio" name="tc" value="Черный">
+					<span style="background-color: #000000"></span>
+				</label>
+			</div>
 		</div>
 		<div class="ti-sizes ti-sizes--details">
 			<span class="tovar-info__sm-title">Размеры:</span>

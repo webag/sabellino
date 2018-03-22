@@ -357,6 +357,54 @@
 //tovar-info
 
 
+//tovar-colors
+.tovar-colors{
+	margin-bottom: 15px;
+	
+	&__curtext{
+		color: #000;
+	}
+
+	&__list{
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+.tovar-color{
+	position: relative;
+	width: 30px;
+	height: 30px;
+	flex-shrink: 0;
+	margin: 0 9px 9px 0;
+	cursor: pointer;
+	user-select: none;
+
+	input{
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0;
+		width: 1px;
+		height: 1px;
+
+		&:checked+span{
+			border: 1px solid $pink;
+			box-shadow: inset 0 0 0 1px $pink,0 0 0 1px $pink;
+		}
+	}
+
+	span{
+		display: block;
+		width: 30px;
+		height: 30px;
+		border: 1px solid $grey-light;
+		transition: all 0.3s ease;
+	}
+}
+//tovar-colors
+
+
 //related-section
 .related-section{
 	padding-top: 35px;
