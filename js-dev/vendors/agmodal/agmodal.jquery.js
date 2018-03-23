@@ -147,7 +147,7 @@
 	// определяем ширину скроллбара
 
 	$(document).ready(function() {
-		$('*[data-ag]').click(function(e){
+		$(document).on('click','[data-ag]',function(e){
 			e.preventDefault();
 			var modalLocation = $(this).attr('data-ag');
 			var modal = $('#'+modalLocation);
